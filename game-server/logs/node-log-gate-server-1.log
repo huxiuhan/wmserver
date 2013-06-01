@@ -1,0 +1,155 @@
+[2013-05-30 00:34:22.686] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 00:34:25.919] [INFO] console - [32m[2013-05-30 00:34:25.917] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 00:34:26.277] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 00:34:26.419] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:34:26.421] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 00:36:57.231] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 00:37:00.466] [INFO] console - [32m[2013-05-30 00:37:00.461] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 00:37:01.148] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 00:37:01.280] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:37:01.288] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 00:45:32.237] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 00:45:35.518] [INFO] console - [32m[2013-05-30 00:45:35.504] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 00:45:38.126] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 00:45:38.169] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:45:38.171] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 00:55:15.523] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 00:55:18.193] [INFO] console - [32m[2013-05-30 00:55:18.192] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 00:55:18.995] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 00:55:19.525] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:55:19.530] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 10:16:27.307] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 10:16:29.659] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:16:30.070] [INFO] console - [32m[2013-05-30 10:16:30.061] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 10:16:30.470] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 10:16:30.526] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:16:30.561] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 10:17:32.531] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 10:17:34.820] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:17:35.211] [INFO] console - [32m[2013-05-30 10:17:35.210] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 10:17:35.611] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 10:17:35.635] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:17:35.639] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 10:27:32.397] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 10:27:35.240] [INFO] console - [32m[2013-05-30 10:27:35.233] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 10:27:36.302] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 10:27:36.869] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:27:36.873] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 10:56:24.463] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 10:56:31.878] [INFO] console - [32m[2013-05-30 10:56:31.877] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 10:56:32.261] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 10:56:32.298] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 10:57:34.517] [ERROR] /node_modules/pomelo/lib/common/service/handlerService.js - [handleManager]: fail to find handler for "gate.gateHandlers.queryEntry"
+[2013-05-30 10:57:34.522] [DEBUG] /node_modules/pomelo/lib/server/server.js - no default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandlers.queryEntry
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:29:8)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+[2013-05-30 10:57:46.238] [ERROR] /node_modules/pomelo/lib/common/service/handlerService.js - [handleManager]: fail to find handler for "gate.gateHandlers.queryEntry"
+[2013-05-30 10:57:46.239] [DEBUG] /node_modules/pomelo/lib/server/server.js - no default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandlers.queryEntry
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:29:8)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+[2013-05-30 10:58:05.052] [ERROR] console -  Caught exception: ReferenceError: dispatcher is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:37:13)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+[2013-05-30 10:58:14.650] [ERROR] console -  Caught exception: ReferenceError: dispatcher is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:37:13)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+[2013-05-30 10:58:56.994] [ERROR] console -  Caught exception: ReferenceError: dispatcher is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:37:13)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+[2013-05-30 10:59:04.429] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 10:59:13.513] [INFO] console - [32m[2013-05-30 10:59:13.512] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 10:59:13.911] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 10:59:13.950] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 10:59:16.357] [ERROR] console -  Caught exception: ReferenceError: uid is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:38:33)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+[2013-05-30 10:59:22.734] [ERROR] console -  Caught exception: ReferenceError: uid is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:38:33)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+[2013-05-30 11:00:00.144] [ERROR] console -  Caught exception: ReferenceError: uid is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:38:33)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+[2013-05-30 11:00:06.942] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 11:00:13.107] [INFO] console - [32m[2013-05-30 11:00:13.106] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 11:00:13.468] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 11:00:13.477] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 11:18:43.373] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 11:18:48.326] [INFO] console - [32m[2013-05-30 11:18:48.326] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 11:18:48.950] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 11:18:49.003] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 12:14:48.159] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 12:14:59.960] [INFO] console - [32m[2013-05-30 12:14:59.960] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 12:15:01.335] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 12:15:01.345] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 12:52:29.059] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 12:52:33.952] [INFO] console - [32m[2013-05-30 12:52:33.948] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 12:52:34.486] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 12:52:34.508] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-05-30 13:05:46.805] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-05-30 13:05:56.348] [INFO] console - [32m[2013-05-30 13:05:56.347] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-05-30 13:05:56.891] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-05-30 13:05:56.938] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start

@@ -1,0 +1,940 @@
+[2013-05-29 19:51:19.661] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-29 19:51:20.856] [INFO] console - info: 'socket.io started'
+[2013-05-29 19:51:20.860] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-29 19:51:20.868] [INFO] console - [32m[2013-05-29 19:51:20.868] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-29 19:51:21.221] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-29 19:51:21.227] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-29 19:51:21.319] [INFO] [default] - [32m[2013-05-29 19:51:21.304] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-29 19:51:22.979] [INFO] [default] - [32m[2013-05-29 19:51:22.977] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-29 19:51:23.023] [INFO] [default] - [32m[2013-05-29 19:51:23.022] [INFO] console - [39m[32m[2013-05-29 19:51:23.021] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-29 19:51:23.130] [INFO] [default] - [32m[2013-05-29 19:51:23.129] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-29 19:51:23.134] [INFO] [default] - [32m[2013-05-29 19:51:23.133] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-29 21:30:26.514] [INFO] crash-log - [master],[master-server-1],[1369834226080],[disconnect]
+[2013-05-29 21:30:28.085] [INFO] crash-log - [connector],[connector-server-1],[1369834228085],[disconnect]
+[2013-05-30 00:34:18.800] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 00:34:21.493] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:34:21.511] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 00:34:21.521] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 00:34:21.559] [INFO] console - [32m[2013-05-30 00:34:21.559] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 00:34:22.336] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 00:34:22.344] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 00:34:22.695] [INFO] [default] - [32m[2013-05-30 00:34:22.649] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 00:34:22.721] [INFO] [default] - [32m[2013-05-30 00:34:22.686] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 00:34:25.838] [INFO] [default] - [32m[2013-05-30 00:34:25.837] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:34:25.923] [INFO] [default] - [32m[2013-05-30 00:34:25.919] [INFO] console - [39m[32m[2013-05-30 00:34:25.917] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 00:34:25.929] [INFO] [default] - [32m[2013-05-30 00:34:25.927] [INFO] console - [39m[32m[2013-05-30 00:34:25.923] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 00:34:26.113] [INFO] [default] - [32m[2013-05-30 00:34:26.069] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 00:34:26.121] [INFO] [default] - [32m[2013-05-30 00:34:26.121] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 00:34:26.279] [INFO] [default] - [32m[2013-05-30 00:34:26.277] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 00:34:26.420] [INFO] [default] - [32m[2013-05-30 00:34:26.419] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:34:26.422] [INFO] [default] - [32m[2013-05-30 00:34:26.421] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 00:36:55.567] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 00:36:56.363] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:36:56.368] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 00:36:56.382] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 00:36:56.392] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 00:36:56.420] [INFO] console - [32m[2013-05-30 00:36:56.420] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 00:36:56.980] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 00:36:56.981] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 00:36:57.278] [INFO] [default] - [32m[2013-05-30 00:36:57.228] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 00:36:57.288] [INFO] [default] - [32m[2013-05-30 00:36:57.231] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 00:36:57.291] [INFO] [default] - [32m[2013-05-30 00:36:57.239] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 00:37:00.137] [INFO] [default] - [32m[2013-05-30 00:37:00.131] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:37:00.279] [INFO] [default] - [32m[2013-05-30 00:37:00.267] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:37:00.328] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:37:00.468] [INFO] [default] - [32m[2013-05-30 00:37:00.466] [INFO] console - [39m[32m[2013-05-30 00:37:00.461] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 00:37:00.866] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:37:00.995] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:37:01.043] [INFO] [default] - [32m[2013-05-30 00:37:01.038] [INFO] console - [39m[32m[2013-05-30 00:37:01.037] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 00:37:01.124] [INFO] [default] - [32m[2013-05-30 00:37:01.123] [INFO] console - [39m[32m[2013-05-30 00:37:01.123] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 00:37:01.149] [INFO] [default] - [32m[2013-05-30 00:37:01.148] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 00:37:01.286] [INFO] [default] - [32m[2013-05-30 00:37:01.280] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:37:01.289] [INFO] [default] - [32m[2013-05-30 00:37:01.288] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 00:37:01.393] [INFO] [default] - [32m[2013-05-30 00:37:01.388] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 00:37:01.402] [INFO] [default] - [32m[2013-05-30 00:37:01.399] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 00:37:01.424] [INFO] [default] - [32m[2013-05-30 00:37:01.423] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 00:37:01.427] [INFO] [default] - [32m[2013-05-30 00:37:01.426] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 00:39:21.737] [INFO] crash-log - [auth],[auth-server-1],[1369845561737],[disconnect]
+[2013-05-30 00:39:22.735] [INFO] crash-log - [gate],[gate-server-1],[1369845562735],[disconnect]
+[2013-05-30 00:39:22.745] [INFO] crash-log - [master],[master-server-1],[1369845562745],[disconnect]
+[2013-05-30 00:39:22.750] [INFO] crash-log - [connector],[connector-server-1],[1369845562750],[disconnect]
+[2013-05-30 00:43:51.604] [ERROR] console -  Caught exception: Error: count should be positive.
+    at Object.exp.createCountDownLatch (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/util/countDownLatch.js:34:11)
+    at list (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/modules/console.js:112:30)
+    at Module.clientHandler (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/modules/console.js:54:7)
+    at ConsoleService.execute (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:165:16)
+    at Socket.MasterAgent.listen (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js:157:27)
+    at Socket.EventEmitter.emit [as $emit] (events.js:96:17)
+    at SocketNamespace.handlePacket (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+    at WebSocket.Transport.onMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/socket.io/lib/transport.js:387:20)
+    at Parser.<anonymous> (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/socket.io/lib/transports/websocket/hybi-16.js:39:10)
+[2013-05-30 00:44:34.092] [INFO] crash-log - [client],[pomelo_list_1369845830544],[1369845874092],[disconnect]
+[2013-05-30 00:44:56.854] [ERROR] console -  Caught exception: Error: count should be positive.
+    at Object.exp.createCountDownLatch (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/util/countDownLatch.js:34:11)
+    at list (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/modules/console.js:112:30)
+    at Module.clientHandler (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/modules/console.js:54:7)
+    at ConsoleService.execute (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:165:16)
+    at Socket.MasterAgent.listen (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js:157:27)
+    at Socket.EventEmitter.emit [as $emit] (events.js:96:17)
+    at SocketNamespace.handlePacket (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/socket.io/lib/namespace.js:335:22)
+    at Manager.onClientMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/socket.io/lib/manager.js:488:38)
+    at WebSocket.Transport.onMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/socket.io/lib/transport.js:387:20)
+    at Parser.<anonymous> (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/node_modules/socket.io/lib/transports/websocket/hybi-16.js:39:10)
+[2013-05-30 00:45:13.188] [INFO] crash-log - [client],[pomelo_list_1369845896620],[1369845913188],[disconnect]
+[2013-05-30 00:45:27.307] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 00:45:31.168] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:45:31.171] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 00:45:31.184] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 00:45:31.192] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 00:45:31.206] [INFO] console - [32m[2013-05-30 00:45:31.205] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 00:45:32.064] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 00:45:32.071] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 00:45:32.248] [INFO] [default] - [32m[2013-05-30 00:45:32.200] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 00:45:32.254] [INFO] [default] - [32m[2013-05-30 00:45:32.208] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 00:45:32.293] [INFO] [default] - [32m[2013-05-30 00:45:32.237] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 00:45:34.873] [INFO] [default] - [32m[2013-05-30 00:45:34.872] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:45:35.108] [INFO] [default] - [32m[2013-05-30 00:45:35.100] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:45:35.376] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:45:35.398] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:45:35.499] [INFO] [default] - [32m[2013-05-30 00:45:35.498] [INFO] console - [39m[32m[2013-05-30 00:45:35.498] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 00:45:35.520] [INFO] [default] - [32m[2013-05-30 00:45:35.518] [INFO] console - [39m[32m[2013-05-30 00:45:35.504] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 00:45:36.796] [INFO] [default] - [32m[2013-05-30 00:45:36.794] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+[32m[2013-05-30 00:45:36.795] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 00:45:37.800] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:45:38.127] [INFO] [default] - [32m[2013-05-30 00:45:38.126] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 00:45:38.169] [INFO] [default] - [32m[2013-05-30 00:45:38.169] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:45:38.171] [INFO] [default] - [32m[2013-05-30 00:45:38.171] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 00:45:38.297] [INFO] [default] - [32m[2013-05-30 00:45:38.296] [INFO] console - [39m[32m[2013-05-30 00:45:38.295] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 00:45:38.509] [INFO] [default] - [32m[2013-05-30 00:45:38.508] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 00:45:38.512] [INFO] [default] - [32m[2013-05-30 00:45:38.511] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 00:45:47.021] [INFO] crash-log - [client],[pomelo_list_1369845946842],[1369845947021],[disconnect]
+[2013-05-30 00:47:23.342] [INFO] [default] - [31m[2013-05-30 00:47:23.339] [ERROR] /node_modules/pomelo/lib/server/server.js - [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:187:50)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:69:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+    at EventEmitter.emit (events.js:96:17)
+    at handleData (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:186:10)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:117:5)
+    at WebSocket.Socket.state (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:33:7)
+    at WebSocket.EventEmitter.emit (events.js:99:17)
+
+[2013-05-30 00:53:39.559] [INFO] [default] - [32m[2013-05-30 00:53:39.551] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 00:53:50.839] [INFO] [default] - [31m[2013-05-30 00:53:50.838] [ERROR] console - [39m Caught exception: TypeError: HashUpdate fail
+    at Nohm.module.exports.hashedPassword (/home/sqrh/proj/wm-server/shared/utils.js:5:19)
+    at Nohm.__cast (/home/sqrh/proj/wm-server/shared/node_modules/nohm/lib/properties.js:96:17)
+    at Nohm.property (/home/sqrh/proj/wm-server/shared/node_modules/nohm/lib/properties.js:38:22)
+    at Nohm.property (/home/sqrh/proj/wm-server/shared/node_modules/nohm/lib/properties.js:22:23)
+    at handler.registration (/home/sqrh/proj/wm-server/game-server/app/servers/auth/handler/authHandler.js:16:8)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+
+[2013-05-30 00:55:13.965] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 00:55:14.670] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:55:14.680] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 00:55:14.690] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 00:55:14.699] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 00:55:14.725] [INFO] console - [32m[2013-05-30 00:55:14.724] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 00:55:15.421] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 00:55:15.427] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 00:55:15.560] [INFO] [default] - [32m[2013-05-30 00:55:15.523] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 00:55:15.592] [INFO] [default] - [32m[2013-05-30 00:55:15.543] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 00:55:15.600] [INFO] [default] - [32m[2013-05-30 00:55:15.553] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 00:55:17.715] [INFO] [default] - [32m[2013-05-30 00:55:17.710] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:55:18.078] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:55:18.117] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:55:18.161] [INFO] [default] - [32m[2013-05-30 00:55:18.155] [INFO] console - [39m[32m[2013-05-30 00:55:18.154] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 00:55:18.171] [INFO] [default] - [32m[2013-05-30 00:55:18.156] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:55:18.205] [INFO] [default] - [32m[2013-05-30 00:55:18.193] [INFO] console - [39m[32m[2013-05-30 00:55:18.192] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 00:55:18.470] [INFO] [default] - [32m[2013-05-30 00:55:18.463] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 00:55:18.471] [INFO] [default] - [32m[2013-05-30 00:55:18.471] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 00:55:18.920] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 00:55:18.997] [INFO] [default] - [32m[2013-05-30 00:55:18.995] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 00:55:19.005] [INFO] [default] - [32m[2013-05-30 00:55:19.002] [INFO] console - [39m[32m[2013-05-30 00:55:19.000] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 00:55:19.526] [INFO] [default] - [32m[2013-05-30 00:55:19.525] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 00:55:19.530] [INFO] [default] - [32m[2013-05-30 00:55:19.530] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 00:55:19.628] [INFO] [default] - [32m[2013-05-30 00:55:19.628] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 00:55:19.631] [INFO] [default] - [32m[2013-05-30 00:55:19.630] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 00:55:29.845] [INFO] [default] - [32m[2013-05-30 00:55:29.810] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 00:55:34.099] [INFO] [default] - [32m[2013-05-30 00:55:34.097] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 00:55:36.788] [INFO] [default] - [32m[2013-05-30 00:55:36.786] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 10:12:03.153] [INFO] crash-log - [connector],[connector-server-1],[1369879923153],[disconnect]
+[2013-05-30 10:16:25.302] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 10:16:26.400] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:16:26.412] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 10:16:26.442] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,port=3151,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 10:16:26.456] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 10:16:26.471] [INFO] console - [32m[2013-05-30 10:16:26.470] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 10:16:27.349] [INFO] [default] - [32m[2013-05-30 10:16:27.301] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 10:16:27.379] [INFO] [default] - [32m[2013-05-30 10:16:27.307] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 10:16:27.401] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 10:16:27.402] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 10:16:27.428] [INFO] [default] - [32m[2013-05-30 10:16:27.361] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 10:16:29.568] [INFO] [default] - [32m[2013-05-30 10:16:29.551] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:16:29.662] [INFO] [default] - [32m[2013-05-30 10:16:29.659] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:16:29.843] [INFO] [default] - [32m[2013-05-30 10:16:29.835] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:16:29.945] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:16:30.007] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:16:30.071] [INFO] [default] - [32m[2013-05-30 10:16:30.070] [INFO] console - [39m[32m[2013-05-30 10:16:30.061] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 10:16:30.081] [INFO] [default] - [32m[2013-05-30 10:16:30.080] [INFO] console - [39m[32m[2013-05-30 10:16:30.080] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 10:16:30.342] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:16:30.412] [INFO] [default] - [32m[2013-05-30 10:16:30.411] [INFO] console - [39m[32m[2013-05-30 10:16:30.404] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 10:16:30.479] [INFO] [default] - [32m[2013-05-30 10:16:30.470] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 10:16:30.538] [INFO] [default] - [32m[2013-05-30 10:16:30.526] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:16:30.562] [INFO] [default] - [32m[2013-05-30 10:16:30.561] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 10:16:30.605] [INFO] [default] - [32m[2013-05-30 10:16:30.595] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 10:16:30.616] [INFO] [default] - [32m[2013-05-30 10:16:30.606] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 10:16:30.654] [INFO] [default] - [32m[2013-05-30 10:16:30.653] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 10:16:30.657] [INFO] [default] - [32m[2013-05-30 10:16:30.656] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 10:17:31.123] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 10:17:31.773] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:17:31.779] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 10:17:31.787] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,port=3151,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 10:17:31.798] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 10:17:31.810] [INFO] console - [32m[2013-05-30 10:17:31.805] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 10:17:32.272] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 10:17:32.281] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 10:17:32.537] [INFO] [default] - [32m[2013-05-30 10:17:32.490] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 10:17:32.567] [INFO] [default] - [32m[2013-05-30 10:17:32.523] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 10:17:32.572] [INFO] [default] - [32m[2013-05-30 10:17:32.531] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 10:17:34.688] [INFO] [default] - [32m[2013-05-30 10:17:34.680] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:17:34.828] [INFO] [default] - [32m[2013-05-30 10:17:34.820] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:17:35.000] [INFO] [default] - [32m[2013-05-30 10:17:34.998] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:17:35.029] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:17:35.164] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:17:35.215] [INFO] [default] - [32m[2013-05-30 10:17:35.211] [INFO] console - [39m[32m[2013-05-30 10:17:35.210] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 10:17:35.331] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:17:35.394] [INFO] [default] - [32m[2013-05-30 10:17:35.393] [INFO] console - [39m[32m[2013-05-30 10:17:35.393] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 10:17:35.417] [INFO] [default] - [32m[2013-05-30 10:17:35.410] [INFO] console - [39m[32m[2013-05-30 10:17:35.410] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 10:17:35.529] [INFO] [default] - [32m[2013-05-30 10:17:35.528] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 10:17:35.537] [INFO] [default] - [32m[2013-05-30 10:17:35.536] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 10:17:35.614] [INFO] [default] - [32m[2013-05-30 10:17:35.611] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 10:17:35.635] [INFO] [default] - [32m[2013-05-30 10:17:35.635] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:17:35.641] [INFO] [default] - [32m[2013-05-30 10:17:35.639] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 10:17:35.712] [INFO] [default] - [32m[2013-05-30 10:17:35.711] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 10:17:35.713] [INFO] [default] - [32m[2013-05-30 10:17:35.713] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 10:27:30.719] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 10:27:31.675] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:27:31.681] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 10:27:31.687] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 10:27:31.704] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 10:27:31.720] [INFO] console - [32m[2013-05-30 10:27:31.719] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 10:27:32.175] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 10:27:32.186] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 10:27:32.434] [INFO] [default] - [32m[2013-05-30 10:27:32.395] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 10:27:32.437] [INFO] [default] - [32m[2013-05-30 10:27:32.397] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 10:27:32.452] [INFO] [default] - [32m[2013-05-30 10:27:32.407] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 10:27:34.618] [INFO] [default] - [32m[2013-05-30 10:27:34.608] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:27:34.935] [INFO] [default] - [32m[2013-05-30 10:27:34.929] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:27:34.945] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:27:35.025] [INFO] [default] - [32m[2013-05-30 10:27:35.020] [INFO] console - [39m[32m[2013-05-30 10:27:35.020] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 10:27:35.160] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:27:35.241] [INFO] [default] - [32m[2013-05-30 10:27:35.240] [INFO] console - [39m[32m[2013-05-30 10:27:35.233] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 10:27:35.296] [INFO] [default] - [32m[2013-05-30 10:27:35.296] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 10:27:35.298] [INFO] [default] - [32m[2013-05-30 10:27:35.297] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 10:27:35.592] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:27:35.670] [INFO] [default] - [32m[2013-05-30 10:27:35.668] [INFO] console - [39m[32m[2013-05-30 10:27:35.668] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 10:27:36.309] [INFO] [default] - [32m[2013-05-30 10:27:36.302] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 10:27:36.870] [INFO] [default] - [32m[2013-05-30 10:27:36.869] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:27:36.877] [INFO] [default] - [32m[2013-05-30 10:27:36.873] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 10:27:38.090] [INFO] [default] - [32m[2013-05-30 10:27:38.088] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 10:27:38.094] [INFO] [default] - [32m[2013-05-30 10:27:38.093] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 10:32:45.316] [INFO] [default] - [31m[2013-05-30 10:32:45.315] [ERROR] /node_modules/pomelo/lib/server/server.js - [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:187:50)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:69:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+    at EventEmitter.emit (events.js:96:17)
+    at handleData (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:186:10)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:117:5)
+    at WebSocket.Socket.state (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:33:7)
+    at WebSocket.EventEmitter.emit (events.js:99:17)
+
+[2013-05-30 10:56:22.781] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 10:56:23.702] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:56:23.707] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 10:56:23.719] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 10:56:23.727] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 10:56:23.742] [INFO] console - [32m[2013-05-30 10:56:23.742] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 10:56:24.208] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 10:56:24.219] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 10:56:24.503] [INFO] [default] - [32m[2013-05-30 10:56:24.463] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 10:56:24.505] [INFO] [default] - [32m[2013-05-30 10:56:24.462] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 10:56:24.542] [INFO] [default] - [32m[2013-05-30 10:56:24.493] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 10:56:27.278] [INFO] [default] - [32m[2013-05-30 10:56:27.270] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:56:27.282] [INFO] [default] - [32m[2013-05-30 10:56:27.274] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:56:30.978] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:56:31.416] [INFO] [default] - [32m[2013-05-30 10:56:31.415] [INFO] console - [39m[32m[2013-05-30 10:56:31.415] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 10:56:31.707] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:56:31.879] [INFO] [default] - [32m[2013-05-30 10:56:31.878] [INFO] console - [39m[32m[2013-05-30 10:56:31.877] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 10:56:32.004] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:56:32.199] [INFO] [default] - [32m[2013-05-30 10:56:32.198] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 10:56:32.205] [INFO] [default] - [32m[2013-05-30 10:56:32.200] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 10:56:32.285] [INFO] [default] - [32m[2013-05-30 10:56:32.261] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 10:56:32.304] [INFO] [default] - [32m[2013-05-30 10:56:32.298] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 10:56:32.404] [INFO] [default] - [32m[2013-05-30 10:56:32.403] [INFO] console - [39m[32m[2013-05-30 10:56:32.402] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 10:56:32.737] [INFO] [default] - [32m[2013-05-30 10:56:32.735] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 10:56:32.743] [INFO] [default] - [32m[2013-05-30 10:56:32.741] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 10:57:03.720] [INFO] [default] - [31m[2013-05-30 10:57:03.719] [ERROR] /node_modules/pomelo/lib/server/server.js - [39mfail to forward message:TypeError: Cannot call method 'forwardMessage' of undefined
+    at doForward (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:187:50)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:69:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+    at EventEmitter.emit (events.js:96:17)
+    at handleData (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:186:10)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:117:5)
+    at WebSocket.Socket.state (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/connectors/hybridsocket.js:33:7)
+    at WebSocket.EventEmitter.emit (events.js:99:17)
+
+[2013-05-30 10:57:34.518] [INFO] [default] - [31m[2013-05-30 10:57:34.517] [ERROR] /node_modules/pomelo/lib/common/service/handlerService.js - [39m[handleManager]: fail to find handler for "gate.gateHandlers.queryEntry"
+
+[2013-05-30 10:57:34.522] [INFO] [default] - [36m[2013-05-30 10:57:34.522] [DEBUG] /node_modules/pomelo/lib/server/server.js - [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandlers.queryEntry
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:29:8)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+
+[2013-05-30 10:57:46.238] [INFO] [default] - [31m[2013-05-30 10:57:46.238] [ERROR] /node_modules/pomelo/lib/common/service/handlerService.js - [39m[handleManager]: fail to find handler for "gate.gateHandlers.queryEntry"
+
+[2013-05-30 10:57:46.240] [INFO] [default] - [36m[2013-05-30 10:57:46.239] [DEBUG] /node_modules/pomelo/lib/server/server.js - [39mno default error handler to resolve unknown exception. Error: fail to find handler for gate.gateHandlers.queryEntry
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:29:8)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+    at bindEvents (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:107:5)
+
+[2013-05-30 10:58:05.052] [INFO] [default] - [31m[2013-05-30 10:58:05.052] [ERROR] console - [39m Caught exception: ReferenceError: dispatcher is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:37:13)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-30 10:58:14.651] [INFO] [default] - [31m[2013-05-30 10:58:14.650] [ERROR] console - [39m Caught exception: ReferenceError: dispatcher is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:37:13)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-30 10:58:56.994] [INFO] [default] - [31m[2013-05-30 10:58:56.994] [ERROR] console - [39m Caught exception: ReferenceError: dispatcher is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:37:13)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-30 10:59:02.814] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 10:59:03.675] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:59:03.680] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 10:59:03.752] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 10:59:03.763] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 10:59:03.771] [INFO] console - [32m[2013-05-30 10:59:03.771] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 10:59:04.217] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 10:59:04.223] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 10:59:04.465] [INFO] [default] - [32m[2013-05-30 10:59:04.429] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 10:59:04.467] [INFO] [default] - [32m[2013-05-30 10:59:04.424] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 10:59:04.487] [INFO] [default] - [32m[2013-05-30 10:59:04.434] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 10:59:07.145] [INFO] [default] - [32m[2013-05-30 10:59:07.143] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:59:09.965] [INFO] [default] - [32m[2013-05-30 10:59:09.963] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 10:59:13.328] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:59:13.514] [INFO] [default] - [32m[2013-05-30 10:59:13.513] [INFO] console - [39m[32m[2013-05-30 10:59:13.512] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 10:59:13.634] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:59:13.918] [INFO] [default] - [32m[2013-05-30 10:59:13.911] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 10:59:13.945] [INFO] [default] - [32m[2013-05-30 10:59:13.944] [INFO] console - [39m[32m[2013-05-30 10:59:13.929] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 10:59:13.951] [INFO] [default] - [32m[2013-05-30 10:59:13.950] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 10:59:14.021] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 10:59:14.085] [INFO] [default] - [32m[2013-05-30 10:59:14.084] [INFO] console - [39m[32m[2013-05-30 10:59:14.082] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 10:59:14.140] [INFO] [default] - [32m[2013-05-30 10:59:14.137] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 10:59:14.152] [INFO] [default] - [32m[2013-05-30 10:59:14.147] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 10:59:14.567] [INFO] [default] - [32m[2013-05-30 10:59:14.566] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 10:59:14.569] [INFO] [default] - [32m[2013-05-30 10:59:14.568] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 10:59:16.362] [INFO] [default] - [31m[2013-05-30 10:59:16.357] [ERROR] console - [39m Caught exception: ReferenceError: uid is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:38:33)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-30 10:59:22.734] [INFO] [default] - [31m[2013-05-30 10:59:22.734] [ERROR] console - [39m Caught exception: ReferenceError: uid is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:38:33)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-30 11:00:00.145] [INFO] [default] - [31m[2013-05-30 11:00:00.144] [ERROR] console - [39m Caught exception: ReferenceError: uid is not defined
+    at handler.queryEntry (/home/sqrh/proj/wm-server/game-server/app/servers/gate/handler/gateHandler.js:38:33)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+    at handleMessage (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/components/connector.js:152:20)
+
+[2013-05-30 11:00:05.355] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 11:00:06.093] [INFO] console - info: 'socket.io started'
+[2013-05-30 11:00:06.099] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 11:00:06.107] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 11:00:06.115] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 11:00:06.162] [INFO] console - [32m[2013-05-30 11:00:06.149] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 11:00:07.267] [INFO] [default] - [32m[2013-05-30 11:00:06.938] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 11:00:07.276] [INFO] [default] - [32m[2013-05-30 11:00:06.940] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 11:00:07.277] [INFO] [default] - [32m[2013-05-30 11:00:06.942] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 11:00:07.330] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 11:00:07.331] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 11:00:08.977] [INFO] [default] - [32m[2013-05-30 11:00:08.968] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 11:00:09.252] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 11:00:10.284] [INFO] [default] - [32m[2013-05-30 11:00:10.280] [INFO] console - [39m[32m[2013-05-30 11:00:10.279] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 11:00:10.301] [INFO] [default] - [32m[2013-05-30 11:00:10.293] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 11:00:10.563] [INFO] [default] - [32m[2013-05-30 11:00:10.563] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 11:00:10.569] [INFO] [default] - [32m[2013-05-30 11:00:10.564] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 11:00:11.400] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 11:00:11.705] [INFO] [default] - [32m[2013-05-30 11:00:11.704] [INFO] console - [39m[32m[2013-05-30 11:00:11.704] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 11:00:12.136] [INFO] [default] - [32m[2013-05-30 11:00:12.133] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 11:00:12.143] [INFO] [default] - [32m[2013-05-30 11:00:12.140] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 11:00:13.026] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 11:00:13.108] [INFO] [default] - [32m[2013-05-30 11:00:13.107] [INFO] console - [39m[32m[2013-05-30 11:00:13.106] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 11:00:13.469] [INFO] [default] - [32m[2013-05-30 11:00:13.468] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 11:00:13.479] [INFO] [default] - [32m[2013-05-30 11:00:13.477] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 11:01:51.260] [INFO] [default] - [32m[2013-05-30 11:01:51.258] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 11:01:59.418] [INFO] [default] - [32m[2013-05-30 11:01:59.411] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 11:02:00.736] [INFO] [default] - [32m[2013-05-30 11:02:00.735] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 11:06:50.151] [INFO] [default] - [32m[2013-05-30 11:06:50.147] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 11:09:34.733] [INFO] [default] - [32m[2013-05-30 11:09:34.732] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 11:18:40.563] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 11:18:42.449] [INFO] console - info: 'socket.io started'
+[2013-05-30 11:18:42.456] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 11:18:42.465] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 11:18:42.478] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 11:18:42.491] [INFO] console - [32m[2013-05-30 11:18:42.490] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 11:18:43.166] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 11:18:43.179] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 11:18:43.419] [INFO] [default] - [32m[2013-05-30 11:18:43.355] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 11:18:43.451] [INFO] [default] - [32m[2013-05-30 11:18:43.373] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 11:18:43.462] [INFO] [default] - [32m[2013-05-30 11:18:43.389] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 11:18:47.176] [INFO] [default] - [32m[2013-05-30 11:18:47.168] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 11:18:47.224] [INFO] [default] - [32m[2013-05-30 11:18:47.212] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 11:18:47.886] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 11:18:47.917] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 11:18:47.931] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 11:18:48.016] [INFO] [default] - [32m[2013-05-30 11:18:48.015] [INFO] console - [39m[32m[2013-05-30 11:18:48.003] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 11:18:48.335] [INFO] [default] - [32m[2013-05-30 11:18:48.326] [INFO] console - [39m[32m[2013-05-30 11:18:48.326] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 11:18:48.473] [INFO] [default] - [32m[2013-05-30 11:18:48.472] [INFO] console - [39m[32m[2013-05-30 11:18:48.464] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 11:18:48.963] [INFO] [default] - [32m[2013-05-30 11:18:48.950] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 11:18:49.012] [INFO] [default] - [32m[2013-05-30 11:18:49.003] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 11:18:49.052] [INFO] [default] - [32m[2013-05-30 11:18:49.046] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 11:18:49.062] [INFO] [default] - [32m[2013-05-30 11:18:49.062] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 11:18:49.164] [INFO] [default] - [32m[2013-05-30 11:18:49.164] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 11:18:49.171] [INFO] [default] - [32m[2013-05-30 11:18:49.166] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 11:23:53.006] [INFO] [default] - [32m[2013-05-30 11:23:53.002] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 11:24:46.999] [INFO] [default] - [32m[2013-05-30 11:24:46.998] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 12:14:45.854] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 12:14:46.663] [INFO] console - info: 'socket.io started'
+[2013-05-30 12:14:46.668] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 12:14:46.677] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 12:14:46.690] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 12:14:46.702] [INFO] console - [32m[2013-05-30 12:14:46.701] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 12:14:47.279] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 12:14:47.287] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 12:14:48.162] [INFO] [default] - [32m[2013-05-30 12:14:48.133] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 12:14:48.205] [INFO] [default] - [32m[2013-05-30 12:14:48.159] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 12:14:48.213] [INFO] [default] - [32m[2013-05-30 12:14:47.997] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 12:14:50.662] [INFO] [default] - [32m[2013-05-30 12:14:50.604] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 12:14:52.869] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 12:14:58.345] [INFO] [default] - [32m[2013-05-30 12:14:58.344] [INFO] console - [39m[32m[2013-05-30 12:14:58.342] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 12:14:58.871] [INFO] [default] - [32m[2013-05-30 12:14:58.871] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 12:14:58.875] [INFO] [default] - [32m[2013-05-30 12:14:58.872] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 12:14:59.726] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 12:14:59.967] [INFO] [default] - [32m[2013-05-30 12:14:59.960] [INFO] console - [39m[32m[2013-05-30 12:14:59.960] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 12:15:01.337] [INFO] [default] - [32m[2013-05-30 12:15:01.335] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 12:15:01.350] [INFO] [default] - [32m[2013-05-30 12:15:01.345] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 12:15:01.604] [INFO] [default] - [32m[2013-05-30 12:15:01.601] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 12:15:01.903] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 12:15:02.053] [INFO] [default] - [32m[2013-05-30 12:15:02.052] [INFO] console - [39m[32m[2013-05-30 12:15:02.052] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 12:15:02.173] [INFO] [default] - [32m[2013-05-30 12:15:02.169] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 12:15:02.178] [INFO] [default] - [32m[2013-05-30 12:15:02.178] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 12:45:23.758] [INFO] crash-log - [master],[master-server-1],[1369889123758],[disconnect]
+[2013-05-30 12:52:27.077] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 12:52:28.043] [INFO] console - info: 'socket.io started'
+[2013-05-30 12:52:28.052] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 12:52:28.072] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 12:52:28.083] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 12:52:28.093] [INFO] console - [32m[2013-05-30 12:52:28.092] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 12:52:28.655] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 12:52:28.665] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 12:52:29.114] [INFO] [default] - [32m[2013-05-30 12:52:29.053] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 12:52:29.127] [INFO] [default] - [32m[2013-05-30 12:52:29.059] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 12:52:29.139] [INFO] [default] - [32m[2013-05-30 12:52:29.071] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 12:52:32.502] [INFO] [default] - [32m[2013-05-30 12:52:32.497] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 12:52:32.925] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 12:52:32.938] [INFO] [default] - [32m[2013-05-30 12:52:32.906] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 12:52:33.035] [INFO] [default] - [32m[2013-05-30 12:52:33.035] [INFO] console - [39m[32m[2013-05-30 12:52:33.034] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 12:52:33.356] [INFO] [default] - [32m[2013-05-30 12:52:33.348] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 12:52:33.357] [INFO] [default] - [32m[2013-05-30 12:52:33.357] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 12:52:33.589] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 12:52:33.671] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 12:52:33.959] [INFO] [default] - [32m[2013-05-30 12:52:33.952] [INFO] console - [39m[32m[2013-05-30 12:52:33.948] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 12:52:34.006] [INFO] [default] - [32m[2013-05-30 12:52:34.004] [INFO] console - [39m[32m[2013-05-30 12:52:34.001] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 12:52:34.442] [INFO] [default] - [32m[2013-05-30 12:52:34.439] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 12:52:34.465] [INFO] [default] - [32m[2013-05-30 12:52:34.464] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 12:52:34.488] [INFO] [default] - [32m[2013-05-30 12:52:34.486] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 12:52:34.509] [INFO] [default] - [32m[2013-05-30 12:52:34.508] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 12:53:23.059] [INFO] [default] - [32m[2013-05-30 12:53:23.053] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 13:02:29.986] [INFO] [default] - [32m[2013-05-30 13:02:29.979] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 13:05:38.974] [INFO] [default] - [32m[2013-05-30 13:05:38.973] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 13:05:44.766] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-05-30 13:05:45.928] [INFO] console - info: 'socket.io started'
+[2013-05-30 13:05:45.934] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-05-30 13:05:45.941] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-05-30 13:05:45.957] [INFO] [default] - Executing /home/sqrh/.nvm/v0.8.23/bin/node /home/sqrh/proj/wm-server/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-05-30 13:05:45.974] [INFO] console - [32m[2013-05-30 13:05:45.973] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "master", "127.0.0.1", 3005
+[2013-05-30 13:05:46.530] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-05-30 13:05:46.542] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-05-30 13:05:46.846] [INFO] [default] - [32m[2013-05-30 13:05:46.793] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-05-30 13:05:46.869] [INFO] [default] - [32m[2013-05-30 13:05:46.801] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-05-30 13:05:46.889] [INFO] [default] - [32m[2013-05-30 13:05:46.805] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-05-30 13:05:50.329] [INFO] [default] - [32m[2013-05-30 13:05:50.327] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 13:05:53.835] [INFO] [default] - [32m[2013-05-30 13:05:53.833] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-05-30 13:05:55.702] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 13:05:55.882] [INFO] [default] - [32m[2013-05-30 13:05:55.881] [INFO] console - [39m[32m[2013-05-30 13:05:55.881] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-05-30 13:05:56.130] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 13:05:56.298] [INFO] [default] - { name: 'Nohm Error',
+  message: 'Warning: setClient() received a redis client that is not connected yet. Consider waiting for an established connection before setting it.' }
+
+[2013-05-30 13:05:56.360] [INFO] [default] - [32m[2013-05-30 13:05:56.348] [INFO] console - [39m[32m[2013-05-30 13:05:56.347] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-05-30 13:05:56.758] [INFO] [default] - [32m[2013-05-30 13:05:56.757] [INFO] console - [39m[32m[2013-05-30 13:05:56.757] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-05-30 13:05:56.908] [INFO] [default] - [32m[2013-05-30 13:05:56.891] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-05-30 13:05:56.946] [INFO] [default] - [32m[2013-05-30 13:05:56.938] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-05-30 13:05:57.058] [INFO] [default] - [32m[2013-05-30 13:05:57.056] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-05-30 13:05:57.069] [INFO] [default] - [32m[2013-05-30 13:05:57.066] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-05-30 13:05:57.083] [INFO] [default] - [32m[2013-05-30 13:05:57.081] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-05-30 13:05:57.100] [INFO] [default] - [32m[2013-05-30 13:05:57.095] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-05-30 13:06:01.760] [INFO] [default] - [32m[2013-05-30 13:06:01.758] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 13:06:53.496] [INFO] [default] - [32m[2013-05-30 13:06:53.490] [INFO] console - [39m{ name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+
+[2013-05-30 23:52:06.286] [INFO] crash-log - [auth],[auth-server-1],[1369929126285],[disconnect]
+[2013-05-31 20:45:59.195] [INFO] crash-log - [connector],[connector-server-1],[1370004359195],[disconnect]
+[2013-05-31 20:45:59.196] [INFO] crash-log - [gate],[gate-server-1],[1370004359196],[disconnect]
+[2013-05-31 20:46:02.890] [INFO] crash-log - [master],[master-server-1],[1370004362889],[disconnect]

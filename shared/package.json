@@ -1,0 +1,10 @@
+{
+    "name":"wm-server",
+    "version":"0.0.1",
+    "private":false,
+    "dependencies":{
+        "redis":"0.8.3",
+        "nohm":"0.9.3",
+        "crypto":"0.0.3"
+    }
+}

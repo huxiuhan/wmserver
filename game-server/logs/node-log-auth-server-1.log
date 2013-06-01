@@ -1,0 +1,172 @@
+[2013-05-30 00:36:57.239] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 00:37:00.131] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:37:01.038] [INFO] console - [32m[2013-05-30 00:37:01.037] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 00:37:01.423] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 00:37:01.426] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 00:45:32.208] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 00:45:34.872] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:45:35.498] [INFO] console - [32m[2013-05-30 00:45:35.498] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 00:45:36.794] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 00:45:36.795] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 00:53:39.551] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 00:53:50.838] [ERROR] console -  Caught exception: TypeError: HashUpdate fail
+    at Nohm.module.exports.hashedPassword (/home/sqrh/proj/wm-server/shared/utils.js:5:19)
+    at Nohm.__cast (/home/sqrh/proj/wm-server/shared/node_modules/nohm/lib/properties.js:96:17)
+    at Nohm.property (/home/sqrh/proj/wm-server/shared/node_modules/nohm/lib/properties.js:38:22)
+    at Nohm.property (/home/sqrh/proj/wm-server/shared/node_modules/nohm/lib/properties.js:22:23)
+    at handler.registration (/home/sqrh/proj/wm-server/game-server/app/servers/auth/handler/authHandler.js:16:8)
+    at Service.handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wm-server/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+[2013-05-30 00:55:15.543] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 00:55:17.710] [INFO] console - info: 'socket.io started'
+[2013-05-30 00:55:18.155] [INFO] console - [32m[2013-05-30 00:55:18.154] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 00:55:18.463] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 00:55:18.471] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 00:55:29.810] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 00:55:34.097] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 00:55:36.786] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 10:16:27.361] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 10:16:29.551] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:16:30.080] [INFO] console - [32m[2013-05-30 10:16:30.080] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 10:16:30.595] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 10:16:30.606] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 10:17:32.523] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 10:17:34.680] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:17:35.410] [INFO] console - [32m[2013-05-30 10:17:35.410] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 10:17:35.711] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 10:17:35.713] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 10:27:32.407] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 10:27:34.608] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:27:35.020] [INFO] console - [32m[2013-05-30 10:27:35.020] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 10:27:35.296] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 10:27:35.297] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 10:56:24.493] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 10:56:27.274] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:56:31.415] [INFO] console - [32m[2013-05-30 10:56:31.415] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 10:56:32.198] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 10:56:32.200] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 10:59:04.434] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 10:59:07.143] [INFO] console - info: 'socket.io started'
+[2013-05-30 10:59:14.084] [INFO] console - [32m[2013-05-30 10:59:14.082] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 10:59:14.566] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 10:59:14.568] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 11:00:06.938] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 11:00:08.968] [INFO] console - info: 'socket.io started'
+[2013-05-30 11:00:10.280] [INFO] console - [32m[2013-05-30 11:00:10.279] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 11:00:10.563] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 11:00:10.564] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 11:01:51.258] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 11:01:59.411] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 11:02:00.735] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 11:06:50.147] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 11:09:34.732] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 11:18:43.389] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 11:18:47.212] [INFO] console - info: 'socket.io started'
+[2013-05-30 11:18:48.015] [INFO] console - [32m[2013-05-30 11:18:48.003] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 11:18:49.164] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 11:18:49.166] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 11:23:53.002] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 11:24:46.998] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 12:14:48.133] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 12:14:50.604] [INFO] console - info: 'socket.io started'
+[2013-05-30 12:14:58.344] [INFO] console - [32m[2013-05-30 12:14:58.342] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 12:14:58.871] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 12:14:58.872] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 12:52:29.071] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 12:52:32.497] [INFO] console - info: 'socket.io started'
+[2013-05-30 12:52:33.035] [INFO] console - [32m[2013-05-30 12:52:33.034] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 12:52:33.348] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 12:52:33.357] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 12:53:23.053] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 13:02:29.979] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 13:05:38.973] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 13:05:46.801] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-05-30 13:05:50.327] [INFO] console - info: 'socket.io started'
+[2013-05-30 13:05:55.881] [INFO] console - [32m[2013-05-30 13:05:55.881] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-05-30 13:05:57.056] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-05-30 13:05:57.066] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-05-30 13:06:01.758] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-05-30 13:06:53.490] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
