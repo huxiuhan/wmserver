@@ -10,11 +10,11 @@ var Handler = function(app) {
 
 var handler = Handler.prototype;
 
-handler.registration = function(msg, session, next) {
+handler.signup = function(msg, session, next) {
   var user = model.factory('User');
 
   user.p(msg.user);
-
+  user.p('energy',100);
 
   user.save(function (err){
     if (err) {

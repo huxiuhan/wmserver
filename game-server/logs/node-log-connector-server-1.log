@@ -106,3 +106,127 @@
 [2013-05-30 13:05:56.757] [INFO] console - [32m[2013-05-30 13:05:56.757] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
 [2013-05-30 13:05:57.081] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
 [2013-05-30 13:05:57.095] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-02 22:53:04.336] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-02 22:53:06.672] [INFO] console - info: 'socket.io started'
+[2013-06-02 22:53:07.143] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:07.212] [INFO] console - [32m[2013-06-02 22:53:07.211] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-02 22:53:07.393] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-02 22:53:07.417] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:07.421] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-02 22:53:07.857] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:08.597] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:09.853] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:11.985] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:15.605] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:21.757] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:32.205] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:53:49.962] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:54:20.149] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:55:11.466] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:56:38.690] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 22:59:06.972] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 23:03:19.041] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 23:10:27.558] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 23:22:36.114] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-02 23:43:14.589] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-03 00:18:19.865] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-03 00:19:53.181] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-03 00:19:56.350] [INFO] console - info: 'socket.io started'
+[2013-06-03 00:19:57.502] [INFO] console - [32m[2013-06-03 00:19:57.501] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-03 00:19:57.729] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-03 00:19:57.868] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start

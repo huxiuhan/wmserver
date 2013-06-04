@@ -19,24 +19,18 @@
     <script src="js/client.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="g-doc">
-      <div class="g-banner" style="border:none">
-        <div class="logo">
-          <div class="img"></div>
-        </div>
-      </div>
-      <div class="g-background">
-        <div class="g-content">
-          Welcome to Pomelo
-        </div>
-      </div>
-      <div class="g-link">
-        Home:
-        <a href="https://github.com/NetEase/pomelo">https://github.com/NetEase/pomelo</a>
-      </div>
-      <div class="g-button">
-        <input id="test" type="button" value="Test Game Server" onclick="test()"/>
-      </div>
+    <div id="signup-view" class="view">
+      <h1>Sign Up</h1>
+      <form id="signup-form">
+        <input type="text" name="name">
+        <input type="email" name="email"> 
+        <input type="password" name="password"> 
+        <input type="text" name="studentId"> 
+        <a onclick="signup()"> sign up</a>
+      </form>
+    </div>
+    <div id="login-view" class="view">
+      <h1>Log in</h1>
     </div>
   </body>
 </html>
