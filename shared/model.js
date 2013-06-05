@@ -55,6 +55,39 @@ nohm.model('User', {
   idGenerator: 'increment'
 });
 
+nohm.model('Area', {
+  properties: {
+    name: {
+      type: 'string',
+      unique: true,
+      validations: [
+        ['notEmpty']
+      ]
+    }
+  },
+  idGenerator: 'increment'
+});
+
+nohm.model('Point', {
+  properties: {
+    x: {
+      type: 'integer',
+      validations: [
+        ['notEmpty']
+      ]
+    },
+    y: {
+      type: 'integer',
+      validations: [
+        ['notEmpty']
+      ]
+    },   
+  },
+  idGenerator: 'increment'
+});
+
+
+
 nohm.setClient(redisClient);
 
 module.exports = nohm;

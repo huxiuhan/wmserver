@@ -1,0 +1,26 @@
+module.exports = [
+{
+name:"45甲",
+description:"45甲楼，体验开发人员的住宿环境。这里有打印店，物美，农行~",
+areaID:1}
+,{
+name:"百周年纪念讲堂",
+description:"这里有各种各样的校内外高水平演出，还有正在热映的电影，高端大气~",
+areaID:4}
+,{
+name:"第二教学楼",
+description:"二教，应该是我们来得最频繁的教学楼。",
+areaID:5}
+,{
+name:"图书馆",
+description:"令人向往的图书殿堂，在学习阅览的时候，要记得保持安静哦~",
+areaID:6}
+,{
+name:"未名湖",
+description:"未名湖是片海洋，风景优美，很适合小情侣们哦~",
+areaID:8}
+,{
+name:"五四运动场",
+description:"在学习繁忙之余，也一定要记得加强体育锻炼，身体是革命的本钱。",
+areaID:9}
+]

@@ -275,3 +275,400 @@
 [2013-06-03 00:19:57.551] [INFO] console - [32m[2013-06-03 00:19:57.550] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
 [2013-06-03 00:19:57.879] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
 [2013-06-03 00:19:57.962] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 19:56:21.869] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 19:56:26.289] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:26.323] [INFO] console - [32m[2013-06-05 19:56:26.322] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 19:56:26.577] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:26.613] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 19:56:26.632] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 19:56:27.021] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:27.761] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:29.017] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:31.153] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:34.770] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:40.917] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:51.365] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:57:09.121] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:57:39.305] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:58:30.618] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:59:57.849] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:02:26.129] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:06:38.202] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:13:46.730] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:43.767] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 20:19:46.767] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:46.836] [INFO] console - [32m[2013-06-05 20:19:46.833] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 20:19:47.155] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 20:19:47.179] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:47.182] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 20:19:47.618] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:48.361] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:49.617] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:51.749] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:55.369] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:03.809] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:04.251] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:04.997] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:36:10.910] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 20:36:14.151] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/home/sqrh/proj/wmserver/shared/model.js:1:76)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+[2013-06-05 20:37:40.331] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 20:37:43.564] [INFO] console - [32m[2013-06-05 20:37:43.561] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 20:37:43.809] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 20:37:44.113] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 20:38:34.695] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 20:38:37.869] [INFO] console - [32m[2013-06-05 20:38:37.867] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 20:38:38.019] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 20:38:38.030] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 20:39:27.802] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 20:39:31.359] [INFO] console - [32m[2013-06-05 20:39:31.358] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 20:39:31.621] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 20:39:31.655] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 20:40:48.297] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 20:40:51.340] [INFO] console - [32m[2013-06-05 20:40:51.339] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 20:40:51.498] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 20:40:51.526] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 20:41:58.613] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 20:42:01.679] [INFO] console - [32m[2013-06-05 20:42:01.669] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 20:42:01.823] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 20:42:01.873] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 21:38:40.397] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 21:38:45.379] [ERROR] console -  Caught exception: ReferenceError: mentreninnnnfffodule is not defined
+    at Object.<anonymous> (/home/sqrh/proj/wmserver/game-server/app/servers/connector/handler/entryHandler.js:5:1)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+[2013-06-05 21:39:44.328] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 21:39:47.095] [INFO] console - [32m[2013-06-05 21:39:47.095] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 21:39:47.267] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 21:39:47.278] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:07:27.814] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:07:31.421] [INFO] console - [32m[2013-06-05 22:07:31.417] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:07:31.759] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:07:31.779] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:09:16.993] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:09:19.721] [INFO] console - [32m[2013-06-05 22:09:19.719] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:09:19.875] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:09:19.901] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:10:45.303] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:10:47.946] [INFO] console - [32m[2013-06-05 22:10:47.943] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:10:48.081] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:10:48.100] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:12:27.037] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:12:29.703] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at Dictionary.start (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/components/dictionary.js:39:27)
+[2013-06-05 22:13:00.866] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:13:03.616] [INFO] console - [32m[2013-06-05 22:13:03.614] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:13:03.758] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:13:03.781] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:14:12.160] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:14:15.187] [INFO] console - [32m[2013-06-05 22:14:15.186] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:14:15.383] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:14:15.417] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:29:03.136] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:29:05.820] [INFO] console - [32m[2013-06-05 22:29:05.819] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:29:06.017] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:29:06.035] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:30:14.095] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:30:17.136] [INFO] console - [32m[2013-06-05 22:30:17.134] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:30:17.405] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:30:17.460] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:32:14.293] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:32:17.458] [INFO] console - [32m[2013-06-05 22:32:17.457] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:32:17.665] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:32:17.684] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:34:09.639] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:34:12.294] [INFO] console - [32m[2013-06-05 22:34:12.291] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:34:12.477] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:34:12.584] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 22:40:17.989] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 22:40:20.910] [INFO] console - [32m[2013-06-05 22:40:20.907] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 22:40:21.102] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 22:40:21.127] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:08:20.532] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:08:54.205] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:08:56.924] [INFO] console - [32m[2013-06-05 23:08:56.918] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:08:57.093] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:08:57.127] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:13:22.726] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:13:25.869] [INFO] console - [32m[2013-06-05 23:13:25.865] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:13:26.114] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:13:26.133] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:18:48.093] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:18:51.849] [INFO] console - [32m[2013-06-05 23:18:51.848] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:18:52.005] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:18:52.020] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:19:09.516] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:19:12.794] [INFO] console - [32m[2013-06-05 23:19:12.788] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:19:12.963] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:19:12.993] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:19:43.053] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:19:46.180] [INFO] console - [32m[2013-06-05 23:19:46.180] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:19:46.346] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:19:46.367] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:20:20.716] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:20:23.932] [INFO] console - [32m[2013-06-05 23:20:23.931] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:20:24.117] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:20:24.133] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:21:58.930] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:22:01.844] [INFO] console - [32m[2013-06-05 23:22:01.842] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:22:02.037] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:22:02.053] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:22:27.264] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:22:30.292] [INFO] console - [32m[2013-06-05 23:22:30.283] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:22:30.412] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:22:30.422] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:23:02.031] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:23:04.976] [INFO] console - [32m[2013-06-05 23:23:04.976] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:23:05.135] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:23:05.155] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:23:15.610] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:23:18.677] [INFO] console - [32m[2013-06-05 23:23:18.676] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:23:18.857] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:23:18.867] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:24:00.652] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:24:03.006] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at Dictionary.start (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/components/dictionary.js:39:27)
+[2013-06-05 23:24:42.498] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:24:45.489] [INFO] console - [32m[2013-06-05 23:24:45.486] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:24:45.657] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:24:45.688] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:26:20.992] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:26:23.563] [INFO] console - [32m[2013-06-05 23:26:23.560] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:26:23.688] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:26:23.711] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:26:43.579] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:26:46.224] [INFO] console - [32m[2013-06-05 23:26:46.215] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:26:46.386] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:26:46.401] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:27:01.248] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:27:04.728] [INFO] console - [32m[2013-06-05 23:27:04.726] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:27:04.935] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:27:04.958] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:30:05.670] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:30:08.355] [INFO] console - [32m[2013-06-05 23:30:08.354] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:30:08.546] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:30:08.578] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:31:04.712] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:31:07.677] [INFO] console - [32m[2013-06-05 23:31:07.677] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:31:07.916] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:31:07.931] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:32:26.258] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:32:29.319] [INFO] console - [32m[2013-06-05 23:32:29.314] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:32:29.452] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:32:29.472] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:35:37.747] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:35:41.181] [INFO] console - [32m[2013-06-05 23:35:41.181] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:35:41.273] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:35:41.282] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:36:44.715] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:36:47.363] [INFO] console - [32m[2013-06-05 23:36:47.359] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:36:47.478] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:36:47.488] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:37:16.735] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:37:19.250] [INFO] console - [32m[2013-06-05 23:37:19.248] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:37:19.374] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:37:19.397] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:46:22.033] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:46:24.740] [INFO] console - [32m[2013-06-05 23:46:24.737] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:46:25.006] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:46:25.077] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:49:17.992] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:49:20.966] [INFO] console - [32m[2013-06-05 23:49:20.965] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:49:21.275] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:49:21.329] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:50:13.995] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:50:16.330] [INFO] console - [32m[2013-06-05 23:50:16.329] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:50:16.484] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:50:16.501] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:51:25.475] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:51:27.815] [INFO] console - [32m[2013-06-05 23:51:27.815] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:51:27.949] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:51:27.964] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:52:23.468] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:52:26.034] [INFO] console - [32m[2013-06-05 23:52:26.033] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:52:26.203] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:52:26.217] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:52:51.000] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:52:53.354] [INFO] console - [32m[2013-06-05 23:52:53.352] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:52:53.490] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:52:53.504] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:54:34.989] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:54:37.748] [INFO] console - [32m[2013-06-05 23:54:37.740] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:54:37.882] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:54:37.896] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-05 23:58:18.429] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-05 23:58:21.309] [INFO] console - [32m[2013-06-05 23:58:21.308] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-05 23:58:21.536] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-05 23:58:21.562] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-06 00:05:54.328] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-06 00:05:56.730] [INFO] console - [32m[2013-06-06 00:05:56.729] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-06 00:05:56.860] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-06 00:05:56.880] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-06 00:09:05.077] [INFO] /node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-06 00:09:07.909] [INFO] console - [32m[2013-06-06 00:09:07.907] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2013-06-06 00:09:08.059] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-06 00:09:08.081] [INFO] /node_modules/pomelo/lib/application.js - "gate-server-1" finish start

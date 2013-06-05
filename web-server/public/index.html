@@ -22,15 +22,26 @@
     <div id="signup-view" class="view">
       <h1>Sign Up</h1>
       <form id="signup-form">
-        <input type="text" name="name">
-        <input type="email" name="email"> 
-        <input type="password" name="password"> 
-        <input type="text" name="studentId"> 
-        <a onclick="signup()"> sign up</a>
+        <p><label for="name">Name:</label><input type="text" name="name"></p>
+        <p><label for="email">Email:</label><input type="email" name="email"> </p>
+        <p><label for="password">password:</label><input type="password" name="password"> </p>
+        <p><label for="studentId">studentId:</label><input type="text" name="studentId"> </p>
+        <a onclick="signupAction()"> Sign up</a> <span class="divider">|</span>
+        <a onclick="goToView('login')">Log in?</a>
       </form>
     </div>
     <div id="login-view" class="view">
       <h1>Log in</h1>
+      <form id="login-form">
+        <p><label for="email">Email:</label><input type="email" name="email"> </p>
+        <p><label for="password">password:</label><input type="password" name="password"> </p>
+        <a onclick="loginAction()">Log in</a> <span class="divider">|</span>
+        <a onclick="goToView('signup')">Sign up?</a>
+      </form>
     </div>
+    <div id="home-view" class="view">
+      <h1>Home</h1>
+      Welcome <span id="var-username"> </span>
+    </div>    
   </body>
 </html>

@@ -230,3 +230,456 @@
 [2013-06-03 00:19:57.502] [INFO] console - [32m[2013-06-03 00:19:57.501] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
 [2013-06-03 00:19:57.729] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
 [2013-06-03 00:19:57.868] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 19:56:22.040] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 19:56:25.759] [INFO] console - info: 'socket.io started'
+[2013-06-05 19:56:26.284] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:26.430] [INFO] console - [32m[2013-06-05 19:56:26.429] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 19:56:26.581] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:26.620] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 19:56:26.626] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 19:56:27.025] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:27.765] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:29.021] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:31.149] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:34.769] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:40.921] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:51.370] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:57:09.130] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:57:39.317] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:58:30.630] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:59:57.854] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:02:26.134] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:06:38.204] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:13:46.436] [DEBUG] /node_modules/pomelo/lib/common/service/sessionService.js - fail to send message for session not exits
+[2013-06-05 20:13:46.451] [DEBUG] /node_modules/pomelo/lib/common/service/sessionService.js - fail to send message for session not exits
+[2013-06-05 20:13:46.722] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:43.726] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 20:19:46.053] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:19:46.735] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:46.799] [INFO] console - [32m[2013-06-05 20:19:46.798] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 20:19:47.134] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:47.141] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 20:19:47.145] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 20:19:47.569] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:48.309] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:49.565] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:51.698] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:55.317] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:03.807] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:04.253] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:04.996] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:33:14.624] [DEBUG] /node_modules/pomelo/lib/common/service/sessionService.js - fail to send message for session not exits
+[2013-06-05 20:36:10.871] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 20:36:13.918] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:36:14.067] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/home/sqrh/proj/wmserver/shared/model.js:1:76)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+[2013-06-05 20:37:40.352] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 20:37:43.178] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:37:44.007] [INFO] console - [32m[2013-06-05 20:37:44.006] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 20:37:44.592] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 20:37:44.597] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 20:38:34.668] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 20:38:37.459] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:38:37.858] [INFO] console - [32m[2013-06-05 20:38:37.858] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 20:38:37.973] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 20:38:37.992] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 20:39:27.806] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 20:39:30.587] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:39:31.267] [INFO] console - [32m[2013-06-05 20:39:31.267] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 20:39:31.509] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 20:39:31.554] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 20:40:48.274] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 20:40:50.816] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:40:51.432] [INFO] console - [32m[2013-06-05 20:40:51.432] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 20:40:51.566] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 20:40:51.570] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 20:41:58.561] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 20:42:01.364] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:42:01.744] [INFO] console - [32m[2013-06-05 20:42:01.743] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 20:42:01.949] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 20:42:01.951] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 21:38:40.540] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 21:38:44.871] [INFO] console - info: 'socket.io started'
+[2013-06-05 21:38:45.356] [ERROR] console -  Caught exception: ReferenceError: mentreninnnnfffodule is not defined
+    at Object.<anonymous> (/home/sqrh/proj/wmserver/game-server/app/servers/connector/handler/entryHandler.js:5:1)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+[2013-06-05 21:39:44.316] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 21:39:46.862] [INFO] console - info: 'socket.io started'
+[2013-06-05 21:39:47.367] [INFO] console - [32m[2013-06-05 21:39:47.367] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 21:39:47.532] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 21:39:47.540] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:07:27.787] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:07:30.579] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:07:31.408] [INFO] console - [32m[2013-06-05 22:07:31.408] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:07:31.707] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:07:31.744] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:09:16.992] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:09:19.344] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:09:19.750] [INFO] console - [32m[2013-06-05 22:09:19.750] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:09:19.882] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:09:19.893] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:10:45.286] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:10:47.572] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:10:47.912] [INFO] console - [32m[2013-06-05 22:10:47.911] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:10:48.020] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:10:48.028] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:12:27.040] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:12:29.423] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:12:29.757] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at Dictionary.start (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/components/dictionary.js:39:27)
+[2013-06-05 22:13:00.859] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:13:03.243] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:13:03.673] [INFO] console - [32m[2013-06-05 22:13:03.673] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:13:03.780] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:13:03.786] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:14:12.164] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:14:14.866] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:14:15.267] [INFO] console - [32m[2013-06-05 22:14:15.264] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:14:15.426] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:14:15.433] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:29:03.130] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:29:05.412] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:29:05.921] [INFO] console - [32m[2013-06-05 22:29:05.911] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:29:06.068] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:29:06.073] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:30:14.089] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:30:16.627] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:30:17.272] [INFO] console - [32m[2013-06-05 22:30:17.263] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:30:17.506] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:30:17.514] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:32:14.289] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:32:17.013] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:32:17.671] [INFO] console - [32m[2013-06-05 22:32:17.671] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:32:17.758] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:32:17.766] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:34:09.642] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:34:11.930] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:34:12.394] [INFO] console - [32m[2013-06-05 22:34:12.393] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:34:12.539] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:34:12.552] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 22:40:17.991] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 22:40:20.483] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:40:21.092] [INFO] console - [32m[2013-06-05 22:40:21.091] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 22:40:21.205] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 22:40:21.209] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:08:20.541] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:08:27.553] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:08:54.186] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:08:56.423] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:08:56.966] [INFO] console - [32m[2013-06-05 23:08:56.965] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:08:57.119] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:08:57.131] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:13:22.728] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:13:25.141] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:13:25.907] [INFO] console - [32m[2013-06-05 23:13:25.905] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:13:26.097] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:13:26.106] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:18:48.068] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:18:50.781] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:18:51.626] [INFO] console - [32m[2013-06-05 23:18:51.625] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:18:51.795] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:18:51.797] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:19:09.465] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:19:12.273] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:19:12.848] [INFO] console - [32m[2013-06-05 23:19:12.848] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:19:13.003] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:19:13.010] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:19:43.088] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:19:45.807] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:19:46.285] [INFO] console - [32m[2013-06-05 23:19:46.285] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:19:46.425] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:19:46.435] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:20:20.703] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:20:23.481] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:20:23.951] [INFO] console - [32m[2013-06-05 23:20:23.947] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:20:24.093] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:20:24.105] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:21:58.890] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:22:01.408] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:22:01.817] [INFO] console - [32m[2013-06-05 23:22:01.817] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:22:01.957] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:22:01.961] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:22:27.276] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:22:29.640] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:22:30.284] [INFO] console - [32m[2013-06-05 23:22:30.278] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:22:30.397] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:22:30.402] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:23:02.042] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:23:04.380] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:23:04.996] [INFO] console - [32m[2013-06-05 23:23:04.996] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:23:05.135] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:23:05.143] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:23:15.589] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:23:18.189] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:23:18.611] [INFO] console - [32m[2013-06-05 23:23:18.610] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:23:18.797] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:23:18.804] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:24:00.628] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:24:02.781] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:24:03.059] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at Dictionary.start (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/components/dictionary.js:39:27)
+[2013-06-05 23:24:42.455] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:24:45.116] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:24:45.534] [INFO] console - [32m[2013-06-05 23:24:45.533] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:24:45.664] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:24:45.670] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:26:21.018] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:26:23.245] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:26:23.620] [INFO] console - [32m[2013-06-05 23:26:23.620] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:26:23.738] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:26:23.742] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:26:43.556] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:26:45.798] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:26:46.248] [INFO] console - [32m[2013-06-05 23:26:46.247] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:26:46.366] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:26:46.374] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:27:01.190] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:27:04.127] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:27:04.697] [INFO] console - [32m[2013-06-05 23:27:04.694] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:27:04.888] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:27:04.912] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:30:05.673] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:30:08.047] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:30:08.480] [INFO] console - [32m[2013-06-05 23:30:08.473] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:30:08.639] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:30:08.642] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:31:04.708] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:31:07.177] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:31:07.674] [INFO] console - [32m[2013-06-05 23:31:07.674] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:31:07.826] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:31:07.839] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:32:26.250] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:32:28.863] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:32:29.306] [INFO] console - [32m[2013-06-05 23:32:29.304] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:32:29.432] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:32:29.442] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:35:37.745] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:35:40.177] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:35:40.453] [INFO] console - [32m[2013-06-05 23:35:40.451] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:35:40.514] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:35:40.519] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:36:44.684] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:36:46.983] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:36:47.323] [INFO] console - [32m[2013-06-05 23:36:47.323] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:36:47.439] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:36:47.447] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:37:16.723] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:37:18.927] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:37:19.323] [INFO] console - [32m[2013-06-05 23:37:19.323] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:37:19.426] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:37:19.431] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:46:22.037] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:46:24.313] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:46:24.789] [INFO] console - [32m[2013-06-05 23:46:24.783] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:46:25.078] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:46:25.100] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:49:17.987] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:49:20.372] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:49:21.037] [INFO] console - [32m[2013-06-05 23:49:21.036] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:49:21.295] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:49:21.334] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:50:13.982] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:50:16.000] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:50:16.412] [INFO] console - [32m[2013-06-05 23:50:16.412] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:50:16.540] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:50:16.543] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:51:25.458] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:51:27.422] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:51:27.825] [INFO] console - [32m[2013-06-05 23:51:27.825] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:51:27.940] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:51:27.948] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:52:23.510] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:52:25.628] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:52:26.150] [INFO] console - [32m[2013-06-05 23:52:26.148] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:52:26.249] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:52:26.254] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:52:50.993] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:52:53.064] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:52:53.419] [INFO] console - [32m[2013-06-05 23:52:53.419] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:52:53.527] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:52:53.533] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:54:34.957] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:54:37.230] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:54:37.710] [INFO] console - [32m[2013-06-05 23:54:37.709] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:54:37.861] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:54:37.869] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-05 23:58:18.419] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-05 23:58:20.922] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:58:21.580] [INFO] console - [32m[2013-06-05 23:58:21.580] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-05 23:58:21.725] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-05 23:58:21.734] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-06 00:05:54.322] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-06 00:05:56.382] [INFO] console - info: 'socket.io started'
+[2013-06-06 00:05:56.768] [INFO] console - [32m[2013-06-06 00:05:56.768] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-06 00:05:56.861] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-06 00:05:56.869] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-06 00:09:05.068] [INFO] /node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-06 00:09:07.441] [INFO] console - info: 'socket.io started'
+[2013-06-06 00:09:07.934] [INFO] console - [32m[2013-06-06 00:09:07.933] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2013-06-06 00:09:08.077] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-06 00:09:08.085] [INFO] /node_modules/pomelo/lib/application.js - "connector-server-1" finish start

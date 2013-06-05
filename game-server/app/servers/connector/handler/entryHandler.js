@@ -1,3 +1,7 @@
+var model = require('../../../../../shared/model');
+var async = require('async');
+
+
 module.exports = function(app) {
   return new Handler(app);
 };
@@ -15,5 +19,6 @@ var Handler = function(app) {
  * @return {Void}
  */
 Handler.prototype.entry = function(msg, session, next) {
+  var app = this.app;
   next(null, {code: 200, msg: 'game server is ok.'});
 };

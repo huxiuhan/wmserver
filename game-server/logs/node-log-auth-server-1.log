@@ -312,3 +312,864 @@
   studentId: [ 'notUnique' ],
   energy: [],
   isOnline: [] }
+[2013-06-05 19:56:22.152] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 19:56:25.537] [INFO] console - info: 'socket.io started'
+[2013-06-05 19:56:25.947] [INFO] console - [32m[2013-06-05 19:56:25.946] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 19:56:26.015] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:26.207] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 19:56:26.216] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 19:56:26.282] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:26.717] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:27.457] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:28.713] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:30.845] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:34.471] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:40.621] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:56:51.069] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:57:08.825] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:57:39.010] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:58:30.322] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 19:59:57.546] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:02:25.825] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:06:37.893] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:13:46.427] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:13:46.445] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:13:46.455] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:13:46.462] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:43.738] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 20:19:45.723] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:19:46.222] [INFO] console - [32m[2013-06-05 20:19:46.222] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 20:19:46.345] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:46.534] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 20:19:46.544] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 20:19:46.611] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:47.057] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:47.797] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:49.054] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:51.185] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:19:54.801] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:03.805] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:04.249] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:04.994] [ERROR] console -  Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:151:24)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:86:14)
+    at Socket.EventEmitter.emit (events.js:96:17)
+    at Socket._destroy.self.errorEmitted (net.js:329:14)
+    at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+[2013-06-05 20:20:13.219] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:33:14.612] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:33:43.678] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:34:36.706] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:35:54.681] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:36:10.953] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 20:36:13.564] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:36:13.700] [ERROR] console -  Caught exception: SyntaxError: Unexpected identifier
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/home/sqrh/proj/wmserver/shared/model.js:1:76)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+[2013-06-05 20:37:40.362] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 20:37:42.899] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:37:43.320] [INFO] console - [32m[2013-06-05 20:37:43.320] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 20:37:43.540] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 20:37:43.547] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 20:38:34.683] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 20:38:37.191] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:38:37.521] [INFO] console - [32m[2013-06-05 20:38:37.521] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 20:38:37.727] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 20:38:37.756] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 20:38:40.302] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:38:40.323] [ERROR] console -  Caught exception: TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Object.exports.encodePacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/parser.js:75:19)
+    at Socket.packet (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:212:21)
+    at Socket.emit (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:368:15)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:98:14)
+    at Remote.forwardMessage (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:39:5)
+    at response (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:155:3)
+    at handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:238:7)
+    at Service.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/handlerService.js:42:5)
+    at Nohm.handler.signup (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:22:7)
+[2013-06-05 20:38:43.103] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:38:43.113] [ERROR] console -  Caught exception: TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Object.exports.encodePacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/parser.js:75:19)
+    at Socket.packet (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:212:21)
+    at Socket.emit (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:368:15)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:98:14)
+    at Remote.forwardMessage (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:39:5)
+    at response (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:155:3)
+    at handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:238:7)
+    at Service.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/handlerService.js:42:5)
+    at Nohm.handler.signup (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:22:7)
+[2013-06-05 20:38:55.103] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:38:55.108] [ERROR] console -  Caught exception: TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Object.exports.encodePacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/parser.js:75:19)
+    at Socket.packet (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:212:21)
+    at Socket.emit (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:368:15)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:98:14)
+    at Remote.forwardMessage (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:39:5)
+    at response (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:155:3)
+    at handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:238:7)
+    at Service.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/handlerService.js:42:5)
+    at Nohm.handler.signup (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:22:7)
+[2013-06-05 20:39:27.799] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 20:39:30.306] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:39:30.784] [INFO] console - [32m[2013-06-05 20:39:30.783] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 20:39:31.372] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 20:39:31.379] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 20:39:37.222] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:39:37.241] [ERROR] console -  Caught exception: TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Object.exports.encodePacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/parser.js:75:19)
+    at Socket.packet (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:212:21)
+    at Socket.emit (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:368:15)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:98:14)
+    at Remote.forwardMessage (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:39:5)
+    at response (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:155:3)
+    at handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:238:7)
+    at Service.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/handlerService.js:42:5)
+    at Nohm.handler.signup (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:22:7)
+[2013-06-05 20:40:41.038] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:40:41.043] [ERROR] console -  Caught exception: TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Object.exports.encodePacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/parser.js:75:19)
+    at Socket.packet (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:212:21)
+    at Socket.emit (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:368:15)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:98:14)
+    at Remote.forwardMessage (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:39:5)
+    at response (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:155:3)
+    at handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:238:7)
+    at Service.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/handlerService.js:42:5)
+    at Nohm.handler.signup (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:22:7)
+[2013-06-05 20:40:48.302] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 20:40:50.303] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:40:50.800] [INFO] console - [32m[2013-06-05 20:40:50.800] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 20:40:51.157] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 20:40:51.159] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 20:40:56.021] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:41:12.657] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:41:58.591] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 20:42:00.989] [INFO] console - info: 'socket.io started'
+[2013-06-05 20:42:01.391] [INFO] console - [32m[2013-06-05 20:42:01.391] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 20:42:01.740] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 20:42:01.748] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 20:42:05.872] [INFO] console - { name: [ 'notEmpty' ],
+  email: [ 'notEmpty', 'email' ],
+  password: [],
+  studentId: [ 'notEmpty' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 20:42:05.922] [ERROR] console -  Caught exception: TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at Object.exports.encodePacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/parser.js:75:19)
+    at Socket.packet (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:212:21)
+    at Socket.emit (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.js:368:15)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:98:14)
+    at Remote.forwardMessage (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/remote/backend/msgRemote.js:39:5)
+    at response (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:155:3)
+    at handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:238:7)
+    at Service.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/handlerService.js:42:5)
+    at Nohm.handler.signup (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:22:7)
+[2013-06-05 21:38:40.525] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 21:38:44.380] [INFO] console - info: 'socket.io started'
+[2013-06-05 21:38:45.362] [INFO] console - [32m[2013-06-05 21:38:45.362] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 21:38:46.194] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 21:38:46.196] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 21:39:44.313] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 21:39:46.100] [INFO] console - info: 'socket.io started'
+[2013-06-05 21:39:46.477] [INFO] console - [32m[2013-06-05 21:39:46.476] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 21:39:46.824] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 21:39:46.825] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 21:39:58.227] [INFO] console - { name: [ 'notUnique' ],
+  email: [ 'notUnique' ],
+  password: [],
+  studentId: [ 'notUnique' ],
+  energy: [],
+  isOnline: [] }
+[2013-06-05 22:07:27.827] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:07:30.134] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:07:31.061] [INFO] console - [32m[2013-06-05 22:07:31.060] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:07:31.210] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:07:31.217] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:07:42.383] [ERROR] console -  Caught exception: TypeError: Cannot read property 'toLowerCase' of undefined
+    at Nohm.find (/home/sqrh/proj/wmserver/shared/node_modules/nohm/lib/retrieve.js:163:29)
+    at handler.login (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:39:8)
+    at Service.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+[2013-06-05 22:09:16.965] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:09:18.942] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:09:19.348] [INFO] console - [32m[2013-06-05 22:09:19.345] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:09:19.576] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:09:19.577] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:09:20.062] [ERROR] console -  Caught exception: TypeError: Cannot read property 'toLowerCase' of undefined
+    at Nohm.find (/home/sqrh/proj/wmserver/shared/node_modules/nohm/lib/retrieve.js:163:29)
+    at handler.login (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:39:8)
+    at Service.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:229:25)
+    at Service.beforeFilter.next (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Service.beforeFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:242:3)
+    at pro.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:71:5)
+    at Component.handle (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/components/server.js:54:15)
+[2013-06-05 22:10:45.288] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:10:47.268] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:10:47.601] [INFO] console - [32m[2013-06-05 22:10:47.601] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:10:47.792] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:10:47.798] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:12:27.064] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:12:29.203] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:12:29.242] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+[2013-06-05 22:13:00.883] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:13:02.926] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:13:03.314] [INFO] console - [32m[2013-06-05 22:13:03.310] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:13:03.528] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:13:03.535] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:14:12.171] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:14:14.552] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:14:14.871] [INFO] console - [32m[2013-06-05 22:14:14.871] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:14:15.098] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:14:15.100] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:19:36.365] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 22:29:03.156] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:29:05.203] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:29:05.697] [INFO] console - [32m[2013-06-05 22:29:05.697] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:29:05.921] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:29:05.931] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:30:14.111] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:30:16.252] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:30:16.702] [INFO] console - [32m[2013-06-05 22:30:16.701] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:30:17.044] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:30:17.046] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:32:14.298] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:32:16.706] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:32:17.052] [INFO] console - [32m[2013-06-05 22:32:17.042] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:32:17.364] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:32:17.375] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:34:09.648] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:34:11.602] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:34:11.966] [INFO] console - [32m[2013-06-05 22:34:11.966] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:34:12.196] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:34:12.203] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:40:17.994] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 22:40:20.086] [INFO] console - info: 'socket.io started'
+[2013-06-05 22:40:20.474] [INFO] console - [32m[2013-06-05 22:40:20.473] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 22:40:20.767] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 22:40:20.781] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 22:40:22.497] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:08:20.608] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:08:26.961] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:08:29.182] [INFO] console - [32m[2013-06-05 23:08:29.180] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:08:54.208] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:08:56.122] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:08:56.523] [INFO] console - [32m[2013-06-05 23:08:56.522] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:08:56.778] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:08:56.780] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:09:12.952] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:13:22.749] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:13:24.767] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:13:25.254] [INFO] console - [32m[2013-06-05 23:13:25.253] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:13:25.633] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:13:25.635] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:13:38.909] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:18:48.081] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:18:50.489] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:18:51.032] [INFO] console - [32m[2013-06-05 23:18:51.032] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:18:51.424] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:18:51.432] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:18:59.803] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:19:09.507] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:19:11.892] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:19:12.279] [INFO] console - [32m[2013-06-05 23:19:12.279] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:19:12.663] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:19:12.670] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:19:35.966] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:19:43.085] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:19:45.517] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:19:45.933] [INFO] console - [32m[2013-06-05 23:19:45.924] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:19:46.243] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:19:46.251] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:20:20.726] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:20:23.198] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:20:23.557] [INFO] console - [32m[2013-06-05 23:20:23.557] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:20:23.790] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:20:23.795] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:20:29.086] [ERROR] console -  Caught exception: ReferenceError: onUserLeave is not defined
+    at Nohm.handler.login (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:58:32)
+    at exports.load (/home/sqrh/proj/wmserver/shared/node_modules/nohm/lib/retrieve.js:68:16)
+    at try_callback (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:532:9)
+    at RedisClient.return_reply (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:614:13)
+    at ReplyParser.RedisClient.init_parser (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:266:14)
+    at ReplyParser.EventEmitter.emit (events.js:96:17)
+    at ReplyParser.send_reply (/home/sqrh/proj/wmserver/shared/node_modules/redis/lib/parser/javascript.js:300:10)
+    at ReplyParser.execute (/home/sqrh/proj/wmserver/shared/node_modules/redis/lib/parser/javascript.js:211:22)
+    at RedisClient.on_data (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:488:27)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:82:14)
+[2013-06-05 23:20:29.143] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:21:58.914] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:22:01.106] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:22:01.438] [INFO] console - [32m[2013-06-05 23:22:01.438] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:22:01.657] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:22:01.663] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:22:05.845] [ERROR] console -  Caught exception: ReferenceError: onUserLeave is not defined
+    at Nohm.handler.login (/home/sqrh/proj/wmserver/game-server/app/servers/auth/handler/authHandler.js:57:32)
+    at exports.load (/home/sqrh/proj/wmserver/shared/node_modules/nohm/lib/retrieve.js:68:16)
+    at try_callback (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:532:9)
+    at RedisClient.return_reply (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:614:13)
+    at ReplyParser.RedisClient.init_parser (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:266:14)
+    at ReplyParser.EventEmitter.emit (events.js:96:17)
+    at ReplyParser.send_reply (/home/sqrh/proj/wmserver/shared/node_modules/redis/lib/parser/javascript.js:300:10)
+    at ReplyParser.execute (/home/sqrh/proj/wmserver/shared/node_modules/redis/lib/parser/javascript.js:211:22)
+    at RedisClient.on_data (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:488:27)
+    at Socket.<anonymous> (/home/sqrh/proj/wmserver/shared/node_modules/redis/index.js:82:14)
+[2013-06-05 23:22:05.877] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:22:27.344] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:22:29.254] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:22:29.897] [INFO] console - [32m[2013-06-05 23:22:29.897] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:22:30.262] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:22:30.264] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:22:34.620] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:23:02.055] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:23:03.975] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:23:04.471] [INFO] console - [32m[2013-06-05 23:23:04.471] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:23:04.812] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:23:04.814] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:23:08.851] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:23:15.603] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:23:17.864] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:23:18.255] [INFO] console - [32m[2013-06-05 23:23:18.248] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:23:18.467] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:23:18.474] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:24:00.663] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:24:02.546] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:24:02.592] [ERROR] console -  Caught exception: SyntaxError: Unexpected token )
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+[2013-06-05 23:24:42.453] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:24:44.736] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:24:45.095] [INFO] console - [32m[2013-06-05 23:24:45.095] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:24:45.335] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:24:45.337] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:26:20.996] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:26:22.891] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:26:23.196] [INFO] console - [32m[2013-06-05 23:26:23.189] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:26:23.432] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:26:23.441] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:26:43.592] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:26:45.406] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:26:45.757] [INFO] console - [32m[2013-06-05 23:26:45.756] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:26:46.023] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:26:46.030] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:26:52.300] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:27:01.246] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:27:03.774] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:27:04.209] [INFO] console - [32m[2013-06-05 23:27:04.203] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:27:04.615] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:27:04.624] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:29:43.210] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:30:05.668] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:30:07.737] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:30:08.050] [INFO] console - [32m[2013-06-05 23:30:08.044] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:30:08.281] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:30:08.283] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:30:33.854] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:31:04.738] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:31:06.833] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:31:07.172] [INFO] console - [32m[2013-06-05 23:31:07.171] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:31:07.501] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:31:07.507] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:32:26.244] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:32:28.473] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:32:28.865] [INFO] console - [32m[2013-06-05 23:32:28.865] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:32:29.137] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:32:29.139] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:32:34.168] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:35:37.766] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:35:39.966] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:35:40.203] [INFO] console - [32m[2013-06-05 23:35:40.203] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:35:40.346] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:35:40.353] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:36:44.708] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:36:46.726] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:36:47.052] [INFO] console - [32m[2013-06-05 23:36:47.052] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:36:47.240] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:36:47.242] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:36:52.687] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:37:16.746] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:37:18.621] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:37:18.989] [INFO] console - [32m[2013-06-05 23:37:18.988] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:37:19.193] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:37:19.200] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:40:35.514] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:46:22.043] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:46:24.094] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:46:24.452] [INFO] console - [32m[2013-06-05 23:46:24.444] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:46:24.741] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:46:24.744] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:46:37.744] [INFO] console - uid: '1'
+[2013-06-05 23:46:37.812] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:49:17.998] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:49:19.951] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:49:20.513] [INFO] console - [32m[2013-06-05 23:49:20.512] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:49:20.838] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:49:20.849] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:49:28.770] [INFO] console - uid: '1'
+[2013-06-05 23:49:28.832] [ERROR] console -  Caught exception: TypeError: undefined is not a function
+    at LocalSession.bind (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/lib/common/service/localSessionService.js:213:5)
+    at Object.exp.applyCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:11:8)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:213:15)
+    at Object.exp.invokeCallback (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/util/utils.js:5:8)
+    at doFilter (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:251:11)
+    at pro.dispatch.send (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailstation.js:212:7)
+    at processMsg (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:145:6)
+    at SocketNamespace.pro.connect.socket.on.self.connected (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-client/mailboxes/ws-mailbox.js:37:7)
+    at SocketNamespace.EventEmitter.emit [as $emit] (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/events.js:165:15)
+    at SocketNamespace.onPacket (/home/sqrh/proj/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/node_modules/socket.io-client/lib/namespace.js:182:20)
+[2013-06-05 23:50:14.003] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:50:15.757] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:50:16.106] [INFO] console - [32m[2013-06-05 23:50:16.106] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:50:16.368] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:50:16.369] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:50:18.923] [INFO] console - uid: '1'
+[2013-06-05 23:50:19.002] [ERROR] console - undefined
+[2013-06-05 23:51:25.494] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:51:27.175] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:51:27.532] [INFO] console - [32m[2013-06-05 23:51:27.532] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:51:27.748] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:51:27.759] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:51:37.484] [INFO] console - uid: '1'
+[2013-06-05 23:51:37.551] [INFO] console - undefined
+[2013-06-05 23:52:23.449] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:52:25.307] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:52:25.601] [INFO] console - [32m[2013-06-05 23:52:25.601] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:52:25.877] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:52:25.878] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:52:31.546] [INFO] console - uid: '1'
+[2013-06-05 23:52:50.998] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:52:52.766] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:52:53.067] [INFO] console - [32m[2013-06-05 23:52:53.067] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:52:53.254] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:52:53.260] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:52:55.751] [INFO] console - uid: '1'
+[2013-06-05 23:54:34.965] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:54:36.996] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:54:37.287] [INFO] console - [32m[2013-06-05 23:54:37.287] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:54:37.546] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:54:37.547] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-05 23:58:18.444] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-05 23:58:20.285] [INFO] console - info: 'socket.io started'
+[2013-06-05 23:58:20.766] [INFO] console - [32m[2013-06-05 23:58:20.758] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-05 23:58:21.209] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-05 23:58:21.211] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-06 00:05:54.335] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-06 00:05:56.175] [INFO] console - info: 'socket.io started'
+[2013-06-06 00:05:56.474] [INFO] console - [32m[2013-06-06 00:05:56.467] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-06 00:05:56.657] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-06 00:05:56.667] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-06 00:09:05.095] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-06 00:09:07.176] [INFO] console - info: 'socket.io started'
+[2013-06-06 00:09:07.506] [INFO] console - [32m[2013-06-06 00:09:07.499] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+[2013-06-06 00:09:07.816] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-06 00:09:07.818] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start

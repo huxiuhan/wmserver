@@ -74,3 +74,8 @@ a:active {
   color: #006699;
   text-decoration: underline;
 }
+
+span.divider {
+  padding: 5px;
+  color: #ccc;
+}
