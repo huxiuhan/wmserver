@@ -1,11 +1,11 @@
 var dispatcher = require('../../../util/dispatcher');
 
 module.exports = function(app) {
-  return new Handler(app);
+	return new Handler(app);
 };
 
 var Handler = function(app) {
-  this.app = app;
+	this.app = app;
 };
 
 var handler = Handler.prototype;
@@ -19,26 +19,26 @@ var handler = Handler.prototype;
  *
  */
 handler.queryEntry = function(msg, session, next) {
-  var username = msg.username;
-  if(!username) {
-    next(null, {
-      code: 500
-    });
-    return;
-  }
-  // get all connectors
-  var connectors = this.app.getServersByType('connector');
-  if(!connectors || connectors.length === 0) {
-    next(null, {
-      code: 500
-    });
-    return;
-  }
-  // select connector
-  var res = dispatcher.dispatch(username, connectors);
-  next(null, {
-    code: 200,
-    host: res.host,
-    port: res.clientPort
-  });
+	var uid = msg.uid;
+	if(!uid) {
+		next(null, {
+			code: 500
+		});
+		return;
+	}
+	// get all connectors
+	var connectors = this.app.getServersByType('connector');
+	if(!connectors || connectors.length === 0) {
+		next(null, {
+			code: 500
+		});
+		return;
+	}
+	// select connector
+	var res = dispatcher.dispatch(uid, connectors);
+	next(null, {
+		code: 200,
+		host: res.host,
+		port: res.clientPort
+	});
 };

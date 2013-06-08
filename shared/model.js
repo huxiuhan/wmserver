@@ -1,93 +1,43 @@
 var config = require('./config');
-var nohm = require('nohm').Nohm;
+var mongoose = require('mongoose');
+var db = mongoose.createConnection('mongodb://localhost/wmserver');
 var utils = require('./utils');
-var redisClient = require('redis').createClient();
+var autoinc = require('mongoose-id-autoinc');
 
 
-nohm.setPrefix(config.REDIS_PREFIX);
 
-nohm.model('User', {
-  properties: {
-    name: {
-      type: 'string',
-      unique: true,
-      validations: [
-        ['notEmpty']
-      ]
-    },
-    email: {
-      type: 'string',
-      unique: true,
-      validations: [
-        ['notEmpty'],
-        ['email']
-      ]
-    },
-    password: {
-      defaultValue: '',
-      type: utils.hashedPassword,
-      validations: [
-        ['length', {
-          min: 6
-        }]
-      ]
-    },
-    studentId: {
-      defaultValue: 888,
-      unique: true,
-      type: 'integer',
-      validations: [
-        ['notEmpty']
-      ]
-    },
-    energy: {
-      defaultValue: 0,
-      type: 'integer',
-      validations: [
-        ['notEmpty']
-      ]
-    },
-    isOnline: {
-      defaultValue: false,
-      type: 'boolean'
-    }
-  },
-  idGenerator: 'increment'
+var Schema = mongoose.Schema
+  , ObjectId = Schema.ObjectId;
+
+autoinc.init(db);
+
+var UserSchema = new Schema({
+  name: { type: String },
+  email: { type: String },
+  passwordHashed: { type: String },
+  studentId: { type: Number},
+  energy: { type: Number },
+  isOnline: { type: Boolean },
+  pointId: { type: ObjectId }
 });
 
-nohm.model('Area', {
-  properties: {
-    name: {
-      type: 'string',
-      unique: true,
-      validations: [
-        ['notEmpty']
-      ]
-    }
-  },
-  idGenerator: 'increment'
+var AreaSchema = new Schema({
+  name: { type: String },
+  pointsId: [ObjectId]
 });
 
-nohm.model('Point', {
-  properties: {
-    x: {
-      type: 'integer',
-      validations: [
-        ['notEmpty']
-      ]
-    },
-    y: {
-      type: 'integer',
-      validations: [
-        ['notEmpty']
-      ]
-    },   
-  },
-  idGenerator: 'increment'
+AreaSchema.plugin(autoinc.plugin, {
+  model: 'Area'
 });
 
+var PointSchema = new Schema({
+  x: Number,
+  y: Number,
+  areaId: ObjectId
+});
 
+db.model('User', UserSchema);
+db.model('Area', AreaSchema);
+db.model('Point', PointSchema);
 
-nohm.setClient(redisClient);
-
-module.exports = nohm;
+module.exports = db;

@@ -11,22 +11,22 @@ var Handler = function(app) {
 var handler = Handler.prototype;
 
 
+var User = model.model('User');
 
 handler.signup = function(msg, session, next) {
-  var user = model.factory('User');
+  var user = new User(msg.user);
 
-  user.p(msg.user);
-  user.p('energy',100);
+  user.energy = 100;
 
   user.save(function (err){
     if (err) {
-      console.log(user.errors);
+      console.log('user save error!');
       next(null, {
-        errors: user.errors,
         code: 501
       });
     } else {
       next(null, {
+        user: user,
         msg: 'registration ok!',
         code: 200
       });

@@ -1,32 +1,9 @@
 var pomelo = window.pomelo;
-var host = "127.0.0.1";
-var port = "3010";
+var username;
+var host = "0.0.0.0";
+var port = "10000";
 var userToken = "";
-var $ = window.jQuery;
 
-
-/*
- * Currently we do not use this function
-function queryEntry(username, callback) {
-  var route = 'gate.gateHandler.queryEntry';
-  pomelo.init({
-    host: window.location.hostname,
-    port: 3014,
-    log: true
-  }, function() {
-    pomelo.request(route, {
-      username: username
-    }, function(data) {
-      pomelo.disconnect();
-      if(data.code === 500) {
-        console.log('LOGIN_ERROR 500');
-        return;
-      }
-      callback(data.host, data.port);
-    });
-  });
-};
-*/
 
 function goToView(viewname) {
   $(".view").hide();

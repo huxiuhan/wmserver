@@ -3,8 +3,8 @@
     "version":"0.0.1",
     "private":false,
     "dependencies":{
-        "redis":"0.8.3",
-        "nohm":"0.9.3",
+      "mongoose":">=0.0.1",
+      "mongoose-id-autoinc":">=0.0.1",
         "crypto":"0.0.3",
         "async":">=0.0.1"
     }

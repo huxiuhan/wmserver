@@ -1,33 +1,40 @@
 var model = require('./model');
-var areas = require('./areas');
-var missions = require('./missions');
+var areas_info = require('./areas');
+var missions_info = require('./missions');
+var Point = model.model('Point');
+var Area = model.model('Area');
+var points = [];
 
-var user = model.factory('User');
+var n = 100;
 
-for (var x = 1; x <= 5; x++) {
-  for (var y = 1; y <= 5; y++) {
-    var point = model.factory('Point');
-    point.p('x', x);
-    point.p('y', y);
-    point.save(function(err) { console.log(err);});
+for (var x = 1; x <= 100; x++) {
+  for (var y = 1; y <= 100; y++) {
+    var p = new Point({x: x, y: y});
+    points.push(p);
+    console.log((x-1)*100+y);
   }
 }
 
-for (i in areas) {
-  var area = model.factory('Area');
-  area.p('name',areas[i].name);
-  for (j in areas[i].points) {
-    var  point = model.factory('Point');
-    var p = areas[i].points[j];
-    point.find({x: p.x, y: p.y}, function(err,ids) {
-      point.load(ids[0], function(err, props){
-        area.link(this);
-      });
-    });
+
+for (ai in areas_info) {
+  var a = areas_info[ai];
+  var area = new Area({name:a.name});
+  area.save();
+  for (pi in a.points) {
+    var p = a.points[pi];
+    var pt = points[(p.x-1)*1000+p.y];
+    pt.areaId = area._id;
+    area.pointsId.push(pt._id);
   }
-  area.save(function(err,is_link_err,l){
-    if (!err) {
-      console.log(areas[i].name);
-    }
-  });
+  area.save();
 }
+
+function complete() {
+
+  if (!points.length) return;
+  var p = points.shift();
+  console.log('s'+points.length);
+  p.save(complete);
+}
+
+complete();
