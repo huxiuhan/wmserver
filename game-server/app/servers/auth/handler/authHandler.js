@@ -22,7 +22,8 @@ handler.signup = function(msg, session, next) {
     if (err) {
       console.log('user save error!');
       next(null, {
-        code: 501
+        code: 501,
+        error: err
       });
     } else {
       next(null, {
@@ -36,11 +37,11 @@ handler.signup = function(msg, session, next) {
 
 var onUserLeave = function (app, session, reason) {
   var uid = session.get('uid');
-  var user = model.factory('User');
-  user.load(uid, function(err){
-    this.p('isOnline', false);
-    this.save(function (err){
-      console.log(user.p("name")+":is leaving");
+  var User = model.model('User');
+  user.findById(uid, function(err,u){
+    u.isOnline = false;
+    u.save(function (err){
+      console.log(u.name+":is leaving");
     });
   })
 };
@@ -48,29 +49,26 @@ var onUserLeave = function (app, session, reason) {
 
 handler.login = function(msg, session, next) {
   var app = this.app;
-  var user = model.factory('User');
-  user.find({email: msg.user.email}, function(err, ids) {
-    if (err || ids.length === 0) {
-      next(null, {code: 502, errors:{email: "no such user:"+msg.user.email}});
+  var User = model.model('User');
+  User.findOne({email: msg.user.email}, function(err, user) {
+    if (err || user == null) {
+      next(null, {code: 502, error:{email: "no such user:"+msg.user.email}});
     } else {
-      user.load(ids[0], function(err, props) {
-        var props = this.allProperties();
-        var hp = utils.hashedPassword(utils.hashedPassword(msg.user.password));
-        if (err || hp != props.password) {
-          next(null, {code: 503, errors:{auth: 'can not authorize!', hp:hp, ps: props.password}});
-        } else {
-          var uid = props.id;
-          var token = utils.hashedPassword(uid);
-          //console.log('uid:', uid);
-          //session.bind(uid,function(err){console.log(err)});
-          session.set('uid', uid);
-          session.set('token', token);
-          session.on('closed', onUserLeave.bind(null, app));
-          session.pushAll();
-          this.p("isOnline",true);
-          this.save(function() {next(null, {code: 200, user: props, token: token});});
-        }
-      }); 
+      if (err || user.passwordHashed != utils.passwordHashed(msg.user.password)) {
+        next(null, {code: 503, error:{auth: 'can not authorize!'}});
+      } else {
+        var uid = user._id;
+        //var token = utils.hashedPassword(uid);
+        //console.log('uid:', uid);
+        //session.bind(uid,function(err){console.log(err)});
+        session.set('uid', uid);
+        session.on('closed', onUserLeave.bind(null, app));
+        session.pushAll();
+        user.isOnline = true;
+        user.save(function(err) {
+          next(null, {code: 200, user: user});
+        });
+      }
     }
   });
 }

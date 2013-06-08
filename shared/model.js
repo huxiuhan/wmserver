@@ -2,32 +2,31 @@ var config = require('./config');
 var mongoose = require('mongoose');
 var db = mongoose.createConnection('mongodb://localhost/wmserver');
 var utils = require('./utils');
-var autoinc = require('mongoose-id-autoinc');
+
 
 
 
 var Schema = mongoose.Schema
   , ObjectId = Schema.ObjectId;
 
-autoinc.init(db);
 
 var UserSchema = new Schema({
-  name: { type: String },
-  email: { type: String },
-  passwordHashed: { type: String },
-  studentId: { type: Number},
+  name: { type: String, required: true, unique: true},
+  email: { type: String, required: true, unique: true },
+  passwordHashed: { type: String, required: true},
+  studentId: { type: Number, required:true, unique: true },
   energy: { type: Number },
   isOnline: { type: Boolean },
   pointId: { type: ObjectId }
 });
 
+UserSchema.virtual('password').set(function(password){
+  this.passwordHashed = utils.passwordHashed(password);
+});
+
 var AreaSchema = new Schema({
   name: { type: String },
   pointsId: [ObjectId]
-});
-
-AreaSchema.plugin(autoinc.plugin, {
-  model: 'Area'
 });
 
 var PointSchema = new Schema({
