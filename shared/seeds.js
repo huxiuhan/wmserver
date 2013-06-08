@@ -7,11 +7,28 @@ var points = [];
 
 var w = 320, h = 226;
 
+var check = function (obj, conditions) {
+  for (k in conditions) {
+    if (obj[k]!=conditions[k]) {
+      return false;
+    }
+  }
+  return true;
+}
+var findOneBy = function(objs, conditions){
+  for (i in objs) {
+    if (check(objs[i], conditions)) {
+      return i;
+    }
+  }
+}
+
+
 for (var x = 0; x <= w; x++) {
   for (var y = 0; y <= h; y++) {
     var p = new Point({x: x, y: y});
     points.push(p);
-    console.log(x*w+y);
+    console.log(x+','+y);
   }
 }
 
@@ -19,14 +36,18 @@ for (var x = 0; x <= w; x++) {
 for (ai in areas_info) {
   var a = areas_info[ai];
   var area = new Area({name:a.name});
-  area.save();
   for (pi in a.points) {
     var p = a.points[pi];
-    var pt = points[(p.x-1)*1000+p.y];
-    pt.areaId = area._id;
-    area.pointsId.push(pt._id);
+    var pti = findOneBy(points, p);
+    area.pointsId.push(points[pti]._id);
   }
-  area.save();
+  area.save(function (err) {
+    for (pi in a.points) {
+      var p = a.points[pi];
+      var pti = findOneBy(points, p);
+      points[pti].areaId = area._id;
+    }
+  });
 }
 
 function complete() {

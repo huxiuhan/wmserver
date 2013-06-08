@@ -36,6 +36,7 @@ var  signupAction = function() {
         console.log("fields errors:", data.errors);
       } else {
         alert(data.msg);
+        goToView('login');
       }
       pomelo.disconnect();
     });
@@ -62,7 +63,16 @@ var loginAction = function() {
   });
 }
 
-var moveAction = function () {
+var logoutAction = function() {
+  var route = "auth.authHandler.logout";
+  pomelo.request(route, {}, function(data) {
+    recvdata = data;
+    alert(data.msg);
+    goToView('login');
+  });
+}
+
+var moveToAction = function () {
 
 }
 

@@ -72,3 +72,19 @@ handler.login = function(msg, session, next) {
     }
   });
 }
+
+handler.logout = function(msg, session, next) {
+  var app = this.app;
+  var User = model.model('User');
+  uid = session.get('uid');
+  User.findById(uid, function(err, user){
+    user.isOnline = false;
+    user.save(function(err) {
+      //console.log(err);
+      session.set('uid', null);
+      session.pushAll();
+      next(null, {code: 200, msg:user.email+":is leaving"});
+    });
+  });
+
+}

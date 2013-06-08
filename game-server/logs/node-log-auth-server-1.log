@@ -52,3 +52,13 @@
 [2013-06-08 15:28:10.671] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
 [2013-06-08 15:28:10.789] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
 [2013-06-08 15:28:10.791] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 15:58:15.406] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 15:58:17.491] [INFO] console - info: 'socket.io started'
+[2013-06-08 15:58:18.398] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 15:58:18.642] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 15:58:18.649] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 18:35:42.389] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 18:35:44.590] [INFO] console - info: 'socket.io started'
+[2013-06-08 18:35:45.482] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 18:35:45.595] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 18:35:45.604] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start

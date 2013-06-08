@@ -3,9 +3,6 @@ var mongoose = require('mongoose');
 var db = mongoose.createConnection('mongodb://localhost/wmserver');
 var utils = require('./utils');
 
-
-
-
 var Schema = mongoose.Schema
   , ObjectId = Schema.ObjectId;
 
@@ -26,13 +23,14 @@ UserSchema.virtual('password').set(function(password){
 
 var AreaSchema = new Schema({
   name: { type: String },
-  pointsId: [ObjectId]
+  pointsId: [ObjectId],
+  ownerId: ObjectId
 });
 
 var PointSchema = new Schema({
   x: Number,
   y: Number,
-  areaId: ObjectId
+  areaId: ObjectId,
 });
 
 db.model('User', UserSchema);
