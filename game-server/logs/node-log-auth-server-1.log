@@ -52,3 +52,52 @@
 [2013-06-08 15:28:10.671] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
 [2013-06-08 15:28:10.789] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
 [2013-06-08 15:28:10.791] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 16:13:42.014] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 16:13:42.284] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:13:42.469] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 16:13:42.498] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 16:13:42.500] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 16:14:34.500] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 16:14:34.775] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:14:34.777] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:770:11)
+    at Server._listen2 (net.js:910:14)
+    at listen (net.js:932:10)
+    at Server.listen (net.js:998:5)
+    at Object.exports.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:29:21)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:42:17)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/components/remote.js:46:15)
+    at module.exports.optComponents (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/util/appUtil.js:82:19)
+    at async.eachSeries.iterate (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+[2013-06-08 16:14:34.956] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 16:19:34.858] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 16:19:35.158] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:19:35.349] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 16:19:35.379] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 16:19:35.381] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 16:25:36.032] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 16:25:36.443] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:25:36.623] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 16:25:36.658] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 16:25:36.659] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 16:29:51.244] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 16:29:51.589] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:29:51.779] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 16:29:51.812] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 16:29:51.813] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 16:31:58.226] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 16:31:58.655] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:31:58.837] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 16:31:58.875] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 16:31:58.876] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 16:36:35.550] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 16:36:35.833] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:36:36.050] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 16:36:36.086] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 16:36:36.087] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start
+[2013-06-08 16:40:30.304] [INFO] /node_modules/pomelo/lib/application.js - application inited: "auth-server-1"
+[2013-06-08 16:40:30.572] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:40:30.777] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "auth", "127.0.0.1", 3005
+[2013-06-08 16:40:30.808] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" enter after start...
+[2013-06-08 16:40:30.810] [INFO] /node_modules/pomelo/lib/application.js - "auth-server-1" finish start

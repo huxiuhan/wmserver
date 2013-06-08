@@ -405,3 +405,700 @@
 
 [2013-06-08 15:28:10.792] [INFO] [default] - [32m[2013-06-08 15:28:10.791] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
 
+[2013-06-08 16:13:41.719] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-06-08 16:13:41.885] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:13:41.887] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-06-08 16:13:41.890] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-06-08 16:13:41.891] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-06-08 16:13:41.893] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=battle-server-1,host=127.0.0.1,port=3655,serverType=battle locally
+[2013-06-08 16:13:41.895] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-06-08 16:13:41.974] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-06-08 16:13:41.974] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-06-08 16:13:41.983] [INFO] [default] - [32m[2013-06-08 16:13:41.977] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-06-08 16:13:41.986] [INFO] [default] - [32m[2013-06-08 16:13:41.980] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-06-08 16:13:41.988] [INFO] [default] - [32m[2013-06-08 16:13:41.981] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "battle-server-1"
+
+[2013-06-08 16:13:42.020] [INFO] [default] - [32m[2013-06-08 16:13:42.014] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-06-08 16:13:42.249] [INFO] [default] - [32m[2013-06-08 16:13:42.247] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:13:42.251] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: 
+/home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:57
+  })
+  ^
+
+[2013-06-08 16:13:42.254] [INFO] [default] - [31m[2013-06-08 16:13:42.253] [ERROR] console - [39m Caught exception: SyntaxError: Unexpected token }
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+
+[2013-06-08 16:13:42.262] [INFO] [default] - [32m[2013-06-08 16:13:42.261] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-06-08 16:13:42.262] [INFO] [default] - [32m[2013-06-08 16:13:42.260] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:13:42.271] [INFO] [default] - [32m[2013-06-08 16:13:42.270] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-06-08 16:13:42.285] [INFO] [default] - [32m[2013-06-08 16:13:42.284] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:13:42.308] [INFO] [default] - [32m[2013-06-08 16:13:42.307] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-06-08 16:13:42.310] [INFO] [default] - [32m[2013-06-08 16:13:42.310] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:13:42.312] [INFO] [default] - [32m[2013-06-08 16:13:42.311] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-06-08 16:13:42.313] [INFO] [default] - [32m[2013-06-08 16:13:42.311] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-06-08 16:13:42.317] [INFO] [default] - [32m[2013-06-08 16:13:42.317] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:13:42.318] [INFO] [default] - [32m[2013-06-08 16:13:42.318] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-06-08 16:13:42.470] [INFO] [default] - [32m[2013-06-08 16:13:42.469] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-06-08 16:13:42.498] [INFO] [default] - [32m[2013-06-08 16:13:42.498] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-06-08 16:13:42.500] [INFO] [default] - [32m[2013-06-08 16:13:42.500] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-06-08 16:14:34.234] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-06-08 16:14:34.399] [INFO] console -    [36minfo  -[39m 'socket.io started'
+[2013-06-08 16:14:34.402] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:770:11)
+    at Server._listen2 (net.js:910:14)
+    at listen (net.js:932:10)
+    at Server.listen (net.js:998:5)
+    at Object.exports.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at MasterAgent.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js:57:21)
+    at ConsoleService.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js:58:14)
+    at Server.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/master/master.js:33:22)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/components/master.js:34:15)
+    at module.exports.optComponents (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/util/appUtil.js:82:19)
+[2013-06-08 16:14:34.403] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-06-08 16:14:34.406] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-06-08 16:14:34.409] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-06-08 16:14:34.411] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app,env=development,id=battle-server-1,host=127.0.0.1,port=3655,serverType=battle locally
+[2013-06-08 16:14:34.413] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-06-08 16:14:34.501] [INFO] [default] - [32m[2013-06-08 16:14:34.495] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-06-08 16:14:34.506] [INFO] [default] - [32m[2013-06-08 16:14:34.500] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "battle-server-1"
+
+[2013-06-08 16:14:34.506] [INFO] [default] - [32m[2013-06-08 16:14:34.500] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-06-08 16:14:34.530] [INFO] [default] - [32m[2013-06-08 16:14:34.524] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-06-08 16:14:34.763] [INFO] [default] - [32m[2013-06-08 16:14:34.762] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:14:34.765] [INFO] [default] - [31m[2013-06-08 16:14:34.765] [ERROR] console - [39m Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:770:11)
+    at Server._listen2 (net.js:910:14)
+    at listen (net.js:932:10)
+    at Server.listen (net.js:998:5)
+    at Object.exports.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:29:21)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:42:17)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/components/remote.js:46:15)
+    at module.exports.optComponents (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/util/appUtil.js:82:19)
+    at async.eachSeries.iterate (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+
+[2013-06-08 16:14:34.766] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: 
+
+[2013-06-08 16:14:34.767] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: /home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:57
+  })
+  ^
+
+[2013-06-08 16:14:34.770] [INFO] [default] - [31m[2013-06-08 16:14:34.769] [ERROR] console - [39m Caught exception: SyntaxError: Unexpected token }
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+
+[2013-06-08 16:14:34.773] [INFO] [default] - [32m[2013-06-08 16:14:34.772] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:14:34.775] [INFO] [default] - [31m[2013-06-08 16:14:34.775] [ERROR] console - [39m Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:770:11)
+    at Server._listen2 (net.js:910:14)
+    at listen (net.js:932:10)
+    at Server.listen (net.js:998:5)
+    at Object.exports.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:29:21)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:42:17)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/components/remote.js:46:15)
+    at module.exports.optComponents (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/util/appUtil.js:82:19)
+    at async.eachSeries.iterate (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+
+[2013-06-08 16:14:34.775] [INFO] [default] - [32m[2013-06-08 16:14:34.775] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:14:34.778] [INFO] [default] - [31m[2013-06-08 16:14:34.777] [ERROR] console - [39m Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:770:11)
+    at Server._listen2 (net.js:910:14)
+    at listen (net.js:932:10)
+    at Server.listen (net.js:998:5)
+    at Object.exports.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:29:21)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:42:17)
+    at pro.start (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/components/remote.js:46:15)
+    at module.exports.optComponents (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/util/appUtil.js:82:19)
+    at async.eachSeries.iterate (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+
+[2013-06-08 16:14:34.785] [INFO] [default] - [32m[2013-06-08 16:14:34.784] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-06-08 16:14:34.806] [INFO] [default] - [32m[2013-06-08 16:14:34.805] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-06-08 16:14:34.957] [INFO] [default] - [32m[2013-06-08 16:14:34.956] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-06-08 16:19:34.595] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-06-08 16:19:34.762] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:19:34.763] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=3150,clientPort=3010,frontend=true,serverType=connector locally
+[2013-06-08 16:19:34.766] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-06-08 16:19:34.768] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=3650,serverType=auth locally
+[2013-06-08 16:19:34.771] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=battle-server-1,host=127.0.0.1,port=3655,serverType=battle locally
+[2013-06-08 16:19:34.773] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-06-08 16:19:34.851] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-06-08 16:19:34.852] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-06-08 16:19:34.858] [INFO] [default] - [32m[2013-06-08 16:19:34.853] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-06-08 16:19:34.863] [INFO] [default] - [32m[2013-06-08 16:19:34.857] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-06-08 16:19:34.865] [INFO] [default] - [32m[2013-06-08 16:19:34.858] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-06-08 16:19:34.898] [INFO] [default] - [32m[2013-06-08 16:19:34.892] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "battle-server-1"
+
+[2013-06-08 16:19:35.133] [INFO] [default] - [32m[2013-06-08 16:19:35.132] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:19:35.141] [INFO] [default] - [32m[2013-06-08 16:19:35.141] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-06-08 16:19:35.154] [INFO] [default] - [32m[2013-06-08 16:19:35.154] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:19:35.156] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: 
+
+[2013-06-08 16:19:35.156] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: /home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:57
+
+[2013-06-08 16:19:35.156] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code:   })
+  ^
+
+[2013-06-08 16:19:35.159] [INFO] [default] - [32m[2013-06-08 16:19:35.158] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:19:35.162] [INFO] [default] - [31m[2013-06-08 16:19:35.161] [ERROR] console - [39m Caught exception: SyntaxError: Unexpected token }
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+
+[2013-06-08 16:19:35.176] [INFO] [default] - [32m[2013-06-08 16:19:35.175] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-06-08 16:19:35.183] [INFO] [default] - [32m[2013-06-08 16:19:35.183] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-06-08 16:19:35.186] [INFO] [default] - [32m[2013-06-08 16:19:35.186] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:19:35.187] [INFO] [default] - [32m[2013-06-08 16:19:35.186] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-06-08 16:19:35.226] [INFO] [default] - [32m[2013-06-08 16:19:35.226] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-06-08 16:19:35.231] [INFO] [default] - [32m[2013-06-08 16:19:35.231] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:19:35.231] [INFO] [default] - [32m[2013-06-08 16:19:35.231] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-06-08 16:19:35.350] [INFO] [default] - [32m[2013-06-08 16:19:35.349] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-06-08 16:19:35.379] [INFO] [default] - [32m[2013-06-08 16:19:35.379] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-06-08 16:19:35.381] [INFO] [default] - [32m[2013-06-08 16:19:35.381] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-06-08 16:25:35.706] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-06-08 16:25:35.874] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:25:35.877] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=4050,clientPort=10000,frontend=true,serverType=connector locally
+[2013-06-08 16:25:35.880] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=chat-server-1,host=127.0.0.1,port=6050,serverType=chat locally
+[2013-06-08 16:25:35.882] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-06-08 16:25:35.884] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=6888,serverType=auth locally
+[2013-06-08 16:25:35.885] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=battle-server-1,host=127.0.0.1,port=6999,serverType=battle locally
+[2013-06-08 16:25:35.889] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-06-08 16:25:35.970] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-06-08 16:25:35.971] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-06-08 16:25:35.979] [INFO] [default] - [32m[2013-06-08 16:25:35.973] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "chat-server-1"
+
+[2013-06-08 16:25:35.979] [INFO] [default] - [32m[2013-06-08 16:25:35.973] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-06-08 16:25:36.003] [INFO] [default] - [32m[2013-06-08 16:25:35.997] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-06-08 16:25:36.035] [INFO] [default] - [32m[2013-06-08 16:25:36.025] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "battle-server-1"
+
+[2013-06-08 16:25:36.042] [INFO] [default] - [32m[2013-06-08 16:25:36.032] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-06-08 16:25:36.240] [INFO] [default] - [32m[2013-06-08 16:25:36.239] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:25:36.249] [INFO] [default] - [32m[2013-06-08 16:25:36.249] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[2013-06-08 16:25:36.253] [INFO] [default] - [32m[2013-06-08 16:25:36.252] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-06-08 16:25:36.283] [INFO] [default] - [32m[2013-06-08 16:25:36.281] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:25:36.293] [INFO] [default] - [32m[2013-06-08 16:25:36.291] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-06-08 16:25:36.295] [INFO] [default] - [32m[2013-06-08 16:25:36.294] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" enter after start...
+
+[2013-06-08 16:25:36.296] [INFO] [default] - [32m[2013-06-08 16:25:36.295] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" finish start
+
+[2013-06-08 16:25:36.318] [INFO] [default] - [32m[2013-06-08 16:25:36.318] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-06-08 16:25:36.324] [INFO] [default] - [32m[2013-06-08 16:25:36.324] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:25:36.325] [INFO] [default] - [32m[2013-06-08 16:25:36.325] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-06-08 16:25:36.332] [INFO] [default] - [32m[2013-06-08 16:25:36.331] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-06-08 16:25:36.335] [INFO] [default] - [32m[2013-06-08 16:25:36.335] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:25:36.335] [INFO] [default] - [32m[2013-06-08 16:25:36.335] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-06-08 16:25:36.417] [INFO] [default] - [32m[2013-06-08 16:25:36.416] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:25:36.418] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: 
+
+[2013-06-08 16:25:36.418] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: /home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:57
+
+[2013-06-08 16:25:36.418] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code:   })
+  ^
+
+[2013-06-08 16:25:36.422] [INFO] [default] - [31m[2013-06-08 16:25:36.422] [ERROR] console - [39m Caught exception: SyntaxError: Unexpected token }
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+
+[2013-06-08 16:25:36.443] [INFO] [default] - [32m[2013-06-08 16:25:36.443] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:25:36.624] [INFO] [default] - [32m[2013-06-08 16:25:36.623] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-06-08 16:25:36.658] [INFO] [default] - [32m[2013-06-08 16:25:36.658] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-06-08 16:25:36.659] [INFO] [default] - [32m[2013-06-08 16:25:36.659] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-06-08 16:29:50.937] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-06-08 16:29:51.103] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:29:51.106] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=4050,clientPort=10000,frontend=true,serverType=connector locally
+[2013-06-08 16:29:51.109] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=chat-server-1,host=127.0.0.1,port=6050,serverType=chat locally
+[2013-06-08 16:29:51.111] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-06-08 16:29:51.112] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=6888,serverType=auth locally
+[2013-06-08 16:29:51.113] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=battle-server-1,host=127.0.0.1,port=6999,serverType=battle locally
+[2013-06-08 16:29:51.118] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-06-08 16:29:51.195] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-06-08 16:29:51.196] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-06-08 16:29:51.205] [INFO] [default] - [32m[2013-06-08 16:29:51.200] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "chat-server-1"
+
+[2013-06-08 16:29:51.207] [INFO] [default] - [32m[2013-06-08 16:29:51.201] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-06-08 16:29:51.239] [INFO] [default] - [32m[2013-06-08 16:29:51.234] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-06-08 16:29:51.250] [INFO] [default] - [32m[2013-06-08 16:29:51.244] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-06-08 16:29:51.274] [INFO] [default] - [32m[2013-06-08 16:29:51.264] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "battle-server-1"
+
+[2013-06-08 16:29:51.482] [INFO] [default] - [32m[2013-06-08 16:29:51.481] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:29:51.484] [INFO] [default] - [32m[2013-06-08 16:29:51.483] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-06-08 16:29:51.495] [INFO] [default] - [32m[2013-06-08 16:29:51.494] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[2013-06-08 16:29:51.521] [INFO] [default] - [32m[2013-06-08 16:29:51.521] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:29:51.530] [INFO] [default] - [32m[2013-06-08 16:29:51.529] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-06-08 16:29:51.532] [INFO] [default] - [32m[2013-06-08 16:29:51.532] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-06-08 16:29:51.537] [INFO] [default] - [32m[2013-06-08 16:29:51.537] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:29:51.539] [INFO] [default] - [32m[2013-06-08 16:29:51.537] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-06-08 16:29:51.571] [INFO] [default] - [32m[2013-06-08 16:29:51.571] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" enter after start...
+
+[2013-06-08 16:29:51.573] [INFO] [default] - [32m[2013-06-08 16:29:51.573] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-06-08 16:29:51.573] [INFO] [default] - [32m[2013-06-08 16:29:51.573] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" finish start
+
+[2013-06-08 16:29:51.576] [INFO] [default] - [32m[2013-06-08 16:29:51.576] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:29:51.577] [INFO] [default] - [32m[2013-06-08 16:29:51.577] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-06-08 16:29:51.590] [INFO] [default] - [32m[2013-06-08 16:29:51.589] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:29:51.654] [INFO] [default] - [32m[2013-06-08 16:29:51.654] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:29:51.655] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: 
+
+[2013-06-08 16:29:51.655] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code: /home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:57
+
+[2013-06-08 16:29:51.655] [ERROR] [default] - Execute command /home/jerry/.nvm/v0.8.23/bin/nodefail. error code:   })
+  ^
+
+[2013-06-08 16:29:51.657] [INFO] [default] - [31m[2013-06-08 16:29:51.657] [ERROR] console - [39m Caught exception: SyntaxError: Unexpected token }
+    at Module._compile (module.js:437:25)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at loadFile (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:43:10)
+    at loadPath (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:79:7)
+    at Object.module.exports.load (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/node_modules/pomelo-loader/lib/loader.js:39:9)
+    at loadHandlers (/home/jerry/wmmytry/wmserver/game-server/node_modules/pomelo/lib/server/server.js:106:19)
+
+[2013-06-08 16:29:51.780] [INFO] [default] - [32m[2013-06-08 16:29:51.779] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-06-08 16:29:51.812] [INFO] [default] - [32m[2013-06-08 16:29:51.812] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-06-08 16:29:51.813] [INFO] [default] - [32m[2013-06-08 16:29:51.813] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-06-08 16:31:57.905] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-06-08 16:31:58.070] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:31:58.073] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=4050,clientPort=10000,frontend=true,serverType=connector locally
+[2013-06-08 16:31:58.076] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=chat-server-1,host=127.0.0.1,port=6050,serverType=chat locally
+[2013-06-08 16:31:58.078] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-06-08 16:31:58.079] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=6888,serverType=auth locally
+[2013-06-08 16:31:58.080] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=battle-server-1,host=127.0.0.1,port=6999,serverType=battle locally
+[2013-06-08 16:31:58.083] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-06-08 16:31:58.159] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-06-08 16:31:58.160] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-06-08 16:31:58.174] [INFO] [default] - [32m[2013-06-08 16:31:58.168] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-06-08 16:31:58.184] [INFO] [default] - [32m[2013-06-08 16:31:58.178] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "battle-server-1"
+
+[2013-06-08 16:31:58.204] [INFO] [default] - [32m[2013-06-08 16:31:58.198] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-06-08 16:31:58.215] [INFO] [default] - [32m[2013-06-08 16:31:58.205] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "chat-server-1"
+
+[2013-06-08 16:31:58.235] [INFO] [default] - [32m[2013-06-08 16:31:58.226] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-06-08 16:31:58.458] [INFO] [default] - [32m[2013-06-08 16:31:58.457] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:31:58.462] [INFO] [default] - [32m[2013-06-08 16:31:58.461] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:31:58.474] [INFO] [default] - [32m[2013-06-08 16:31:58.470] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-06-08 16:31:58.479] [INFO] [default] - [32m[2013-06-08 16:31:58.478] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-06-08 16:31:58.513] [INFO] [default] - [32m[2013-06-08 16:31:58.513] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-06-08 16:31:58.517] [INFO] [default] - [32m[2013-06-08 16:31:58.516] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:31:58.518] [INFO] [default] - [32m[2013-06-08 16:31:58.517] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-06-08 16:31:58.530] [INFO] [default] - [32m[2013-06-08 16:31:58.530] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-06-08 16:31:58.535] [INFO] [default] - [32m[2013-06-08 16:31:58.535] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:31:58.536] [INFO] [default] - [32m[2013-06-08 16:31:58.535] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-06-08 16:31:58.632] [INFO] [default] - [32m[2013-06-08 16:31:58.631] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:31:58.640] [INFO] [default] - [32m[2013-06-08 16:31:58.640] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[2013-06-08 16:31:58.653] [INFO] [default] - [32m[2013-06-08 16:31:58.653] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "battle", "127.0.0.1", 3005
+
+[2013-06-08 16:31:58.656] [INFO] [default] - [32m[2013-06-08 16:31:58.655] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:31:58.683] [INFO] [default] - [32m[2013-06-08 16:31:58.683] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" enter after start...
+
+[2013-06-08 16:31:58.684] [INFO] [default] - [32m[2013-06-08 16:31:58.684] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" finish start
+
+[2013-06-08 16:31:58.691] [INFO] [default] - [32m[2013-06-08 16:31:58.690] [INFO] /node_modules/pomelo/lib/application.js - [39m"battle-server-1" enter after start...
+
+[2013-06-08 16:31:58.691] [INFO] [default] - [32m[2013-06-08 16:31:58.691] [INFO] /node_modules/pomelo/lib/application.js - [39m"battle-server-1" finish start
+
+[2013-06-08 16:31:58.838] [INFO] [default] - [32m[2013-06-08 16:31:58.837] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-06-08 16:31:58.875] [INFO] [default] - [32m[2013-06-08 16:31:58.875] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-06-08 16:31:58.876] [INFO] [default] - [32m[2013-06-08 16:31:58.876] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-06-08 16:33:39.963] [INFO] [default] - [32m[2013-06-08 16:33:39.963] [INFO] console - [39mundefined
+
+[2013-06-08 16:33:39.964] [INFO] [default] - [32m[2013-06-08 16:33:39.963] [INFO] console - [39m1
+
+[2013-06-08 16:33:39.971] [INFO] [default] - [31m[2013-06-08 16:33:39.971] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'energy' of null
+    at Promise.handler.battle (/home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:25:17)
+    at Promise.onResolve (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:162:8)
+    at Promise.EventEmitter.emit (events.js:96:17)
+    at Promise.emit (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:79:38)
+    at Promise.fulfill (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:92:20)
+    at Query.findOne (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/lib/query.js:1783:30)
+    at exports.tick (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/lib/utils.js:414:16)
+    at Collection.findOne (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js:1012:5)
+    at Cursor.nextObject (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js:674:35)
+    at Cursor.close (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js:881:5)
+
+[2013-06-08 16:33:42.963] [INFO] [default] - [33m[2013-06-08 16:33:42.962] [WARN] /node_modules/pomelo/lib/filters/handler/timeout.js - [39mrequest "battle.battleHandler.battle" timeout.
+
+[2013-06-08 16:35:34.011] [INFO] [default] - [32m[2013-06-08 16:35:34.011] [INFO] console - [39mundefined
+
+[2013-06-08 16:35:34.012] [INFO] [default] - [32m[2013-06-08 16:35:34.011] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:35:34.015] [INFO] [default] - [31m[2013-06-08 16:35:34.015] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'energy' of null
+    at Promise.handler.battle (/home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:25:17)
+    at Promise.onResolve (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:162:8)
+    at Promise.EventEmitter.emit (events.js:96:17)
+    at Promise.emit (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:79:38)
+    at Promise.fulfill (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:92:20)
+    at Query.findOne (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/lib/query.js:1783:30)
+    at exports.tick (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/lib/utils.js:414:16)
+    at Collection.findOne (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js:1012:5)
+    at Cursor.nextObject (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js:674:35)
+    at Cursor.close (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js:881:5)
+
+[2013-06-08 16:35:37.012] [INFO] [default] - [33m[2013-06-08 16:35:37.012] [WARN] /node_modules/pomelo/lib/filters/handler/timeout.js - [39mrequest "battle.battleHandler.battle" timeout.
+
+[2013-06-08 16:36:35.263] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-06-08 16:36:35.429] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:36:35.430] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=4050,clientPort=10000,frontend=true,serverType=connector locally
+[2013-06-08 16:36:35.433] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=chat-server-1,host=127.0.0.1,port=6050,serverType=chat locally
+[2013-06-08 16:36:35.435] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-06-08 16:36:35.436] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=6888,serverType=auth locally
+[2013-06-08 16:36:35.438] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=battle-server-1,host=127.0.0.1,port=6999,serverType=battle locally
+[2013-06-08 16:36:35.442] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-06-08 16:36:35.517] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-06-08 16:36:35.518] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-06-08 16:36:35.550] [INFO] [default] - [32m[2013-06-08 16:36:35.541] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "chat-server-1"
+
+[2013-06-08 16:36:35.560] [INFO] [default] - [32m[2013-06-08 16:36:35.550] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-06-08 16:36:35.568] [INFO] [default] - [32m[2013-06-08 16:36:35.562] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "battle-server-1"
+
+[2013-06-08 16:36:35.581] [INFO] [default] - [32m[2013-06-08 16:36:35.571] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-06-08 16:36:35.586] [INFO] [default] - [32m[2013-06-08 16:36:35.577] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-06-08 16:36:35.823] [INFO] [default] - [32m[2013-06-08 16:36:35.822] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:36:35.831] [INFO] [default] - [32m[2013-06-08 16:36:35.831] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[2013-06-08 16:36:35.833] [INFO] [default] - [32m[2013-06-08 16:36:35.833] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:36:35.838] [INFO] [default] - [32m[2013-06-08 16:36:35.837] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:36:35.875] [INFO] [default] - [32m[2013-06-08 16:36:35.875] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" enter after start...
+
+[2013-06-08 16:36:35.876] [INFO] [default] - [32m[2013-06-08 16:36:35.875] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" finish start
+
+[2013-06-08 16:36:35.982] [INFO] [default] - [32m[2013-06-08 16:36:35.982] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-06-08 16:36:35.985] [INFO] [default] - [32m[2013-06-08 16:36:35.985] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:36:35.994] [INFO] [default] - [32m[2013-06-08 16:36:35.994] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-06-08 16:36:36.032] [INFO] [default] - [32m[2013-06-08 16:36:36.031] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "battle", "127.0.0.1", 3005
+
+[2013-06-08 16:36:36.038] [INFO] [default] - [32m[2013-06-08 16:36:36.037] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-06-08 16:36:36.040] [INFO] [default] - [32m[2013-06-08 16:36:36.040] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-06-08 16:36:36.043] [INFO] [default] - [32m[2013-06-08 16:36:36.042] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:36:36.044] [INFO] [default] - [32m[2013-06-08 16:36:36.044] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-06-08 16:36:36.047] [INFO] [default] - [32m[2013-06-08 16:36:36.046] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:36:36.048] [INFO] [default] - [32m[2013-06-08 16:36:36.047] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-06-08 16:36:36.051] [INFO] [default] - [32m[2013-06-08 16:36:36.050] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-06-08 16:36:36.069] [INFO] [default] - [32m[2013-06-08 16:36:36.069] [INFO] /node_modules/pomelo/lib/application.js - [39m"battle-server-1" enter after start...
+
+[2013-06-08 16:36:36.070] [INFO] [default] - [32m[2013-06-08 16:36:36.070] [INFO] /node_modules/pomelo/lib/application.js - [39m"battle-server-1" finish start
+
+[2013-06-08 16:36:36.087] [INFO] [default] - [32m[2013-06-08 16:36:36.086] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-06-08 16:36:36.087] [INFO] [default] - [32m[2013-06-08 16:36:36.087] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-06-08 16:36:58.567] [INFO] [default] - [32m[2013-06-08 16:36:58.566] [INFO] console - [39mundefined
+
+[2013-06-08 16:36:58.567] [INFO] [default] - [32m[2013-06-08 16:36:58.566] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:36:58.575] [INFO] [default] - [31m[2013-06-08 16:36:58.574] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'energy' of null
+    at Promise.handler.battle (/home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:25:17)
+    at Promise.onResolve (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:162:8)
+    at Promise.EventEmitter.emit (events.js:96:17)
+    at Promise.emit (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:79:38)
+    at Promise.fulfill (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:92:20)
+    at Query.findOne (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/lib/query.js:1783:30)
+    at exports.tick (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/lib/utils.js:414:16)
+    at Collection.findOne (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js:1012:5)
+    at Cursor.nextObject (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js:674:35)
+    at Cursor.close (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js:881:5)
+
+[2013-06-08 16:37:01.567] [INFO] [default] - [33m[2013-06-08 16:37:01.566] [WARN] /node_modules/pomelo/lib/filters/handler/timeout.js - [39mrequest "battle.battleHandler.battle" timeout.
+
+[2013-06-08 16:37:03.361] [INFO] [default] - [32m[2013-06-08 16:37:03.361] [INFO] console - [39mundefined
+
+[2013-06-08 16:37:03.362] [INFO] [default] - [32m[2013-06-08 16:37:03.361] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:37:03.368] [INFO] [default] - [31m[2013-06-08 16:37:03.367] [ERROR] console - [39m Caught exception: TypeError: Cannot read property 'energy' of null
+    at Promise.handler.battle (/home/jerry/wmmytry/wmserver/game-server/app/servers/battle/handler/battleHandler.js:25:17)
+    at Promise.onResolve (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:162:8)
+    at Promise.EventEmitter.emit (events.js:96:17)
+    at Promise.emit (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:79:38)
+    at Promise.fulfill (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mpromise/lib/promise.js:92:20)
+    at Query.findOne (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/lib/query.js:1783:30)
+    at exports.tick (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/lib/utils.js:414:16)
+    at Collection.findOne (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/collection.js:1012:5)
+    at Cursor.nextObject (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js:674:35)
+    at Cursor.close (/home/jerry/wmmytry/wmserver/shared/node_modules/mongoose/node_modules/mongodb/lib/mongodb/cursor.js:881:5)
+
+[2013-06-08 16:37:06.361] [INFO] [default] - [33m[2013-06-08 16:37:06.360] [WARN] /node_modules/pomelo/lib/filters/handler/timeout.js - [39mrequest "battle.battleHandler.battle" timeout.
+
+[2013-06-08 16:40:30.030] [INFO] /node_modules/pomelo/lib/application.js - application inited: "master-server-1"
+[2013-06-08 16:40:30.200] [INFO] console - info: 'socket.io started'
+[2013-06-08 16:40:30.203] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=connector-server-1,host=127.0.0.1,port=4050,clientPort=10000,frontend=true,serverType=connector locally
+[2013-06-08 16:40:30.206] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=chat-server-1,host=127.0.0.1,port=6050,serverType=chat locally
+[2013-06-08 16:40:30.209] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=gate-server-1,host=127.0.0.1,clientPort=3014,frontend=true,serverType=gate locally
+[2013-06-08 16:40:30.211] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=auth-server-1,host=127.0.0.1,port=6888,serverType=auth locally
+[2013-06-08 16:40:30.213] [INFO] [default] - Executing /home/jerry/.nvm/v0.8.23/bin/node /home/jerry/wmmytry/wmserver/game-server/app.js,env=development,id=battle-server-1,host=127.0.0.1,port=6999,serverType=battle locally
+[2013-06-08 16:40:30.217] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "master", "127.0.0.1", 3005
+[2013-06-08 16:40:30.293] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" enter after start...
+[2013-06-08 16:40:30.294] [INFO] /node_modules/pomelo/lib/application.js - "master-server-1" finish start
+[2013-06-08 16:40:30.303] [INFO] [default] - [32m[2013-06-08 16:40:30.297] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "connector-server-1"
+
+[2013-06-08 16:40:30.311] [INFO] [default] - [32m[2013-06-08 16:40:30.304] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "auth-server-1"
+
+[2013-06-08 16:40:30.337] [INFO] [default] - [32m[2013-06-08 16:40:30.331] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "gate-server-1"
+
+[2013-06-08 16:40:30.360] [INFO] [default] - [32m[2013-06-08 16:40:30.350] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "chat-server-1"
+
+[2013-06-08 16:40:30.364] [INFO] [default] - [32m[2013-06-08 16:40:30.354] [INFO] /node_modules/pomelo/lib/application.js - [39mapplication inited: "battle-server-1"
+
+[2013-06-08 16:40:30.573] [INFO] [default] - [32m[2013-06-08 16:40:30.572] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:40:30.585] [INFO] [default] - [32m[2013-06-08 16:40:30.584] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:40:30.594] [INFO] [default] - [32m[2013-06-08 16:40:30.594] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "connector", "127.0.0.1", 3005
+
+[2013-06-08 16:40:30.614] [INFO] [default] - [32m[2013-06-08 16:40:30.614] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "gate", "127.0.0.1", 3005
+
+[2013-06-08 16:40:30.636] [INFO] [default] - [32m[2013-06-08 16:40:30.635] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" enter after start...
+
+[2013-06-08 16:40:30.640] [INFO] [default] - [32m[2013-06-08 16:40:30.640] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:40:30.641] [INFO] [default] - [32m[2013-06-08 16:40:30.640] [INFO] /node_modules/pomelo/lib/application.js - [39m"connector-server-1" finish start
+
+[2013-06-08 16:40:30.666] [INFO] [default] - [32m[2013-06-08 16:40:30.666] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" enter after start...
+
+[2013-06-08 16:40:30.672] [INFO] [default] - [32m[2013-06-08 16:40:30.672] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:40:30.673] [INFO] [default] - [32m[2013-06-08 16:40:30.673] [INFO] /node_modules/pomelo/lib/application.js - [39m"gate-server-1" finish start
+
+[2013-06-08 16:40:30.778] [INFO] [default] - [32m[2013-06-08 16:40:30.777] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "auth", "127.0.0.1", 3005
+
+[2013-06-08 16:40:30.784] [INFO] [default] - [32m[2013-06-08 16:40:30.783] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:40:30.788] [INFO] [default] - [32m[2013-06-08 16:40:30.784] [INFO] console - [39minfo: 'socket.io started'
+
+[2013-06-08 16:40:30.798] [INFO] [default] - [32m[2013-06-08 16:40:30.797] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "chat", "127.0.0.1", 3005
+
+[2013-06-08 16:40:30.808] [INFO] [default] - [32m[2013-06-08 16:40:30.808] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" enter after start...
+
+[2013-06-08 16:40:30.810] [INFO] [default] - [32m[2013-06-08 16:40:30.810] [INFO] /node_modules/pomelo/lib/application.js - [39m"auth-server-1" finish start
+
+[2013-06-08 16:40:30.864] [INFO] [default] - [32m[2013-06-08 16:40:30.863] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" enter after start...
+
+[2013-06-08 16:40:30.864] [INFO] [default] - [32m[2013-06-08 16:40:30.864] [INFO] /node_modules/pomelo/lib/application.js - [39m"chat-server-1" finish start
+
+[2013-06-08 16:40:31.003] [INFO] [default] - [32m[2013-06-08 16:40:31.002] [INFO] /node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - [39mtry to connect master: "battle", "127.0.0.1", 3005
+
+[2013-06-08 16:40:31.039] [INFO] [default] - [32m[2013-06-08 16:40:31.038] [INFO] /node_modules/pomelo/lib/application.js - [39m"battle-server-1" enter after start...
+
+[2013-06-08 16:40:31.039] [INFO] [default] - [32m[2013-06-08 16:40:31.039] [INFO] /node_modules/pomelo/lib/application.js - [39m"battle-server-1" finish start
+
+[2013-06-08 16:40:51.781] [INFO] [default] - [32m[2013-06-08 16:40:51.780] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:40:51.781] [INFO] [default] - [32m[2013-06-08 16:40:51.781] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:40:51.788] [INFO] [default] - [32m[2013-06-08 16:40:51.787] [INFO] console - [39m-1
+
+[2013-06-08 16:41:01.367] [INFO] [default] - [32m[2013-06-08 16:41:01.366] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:41:01.367] [INFO] [default] - [32m[2013-06-08 16:41:01.367] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:41:01.373] [INFO] [default] - [32m[2013-06-08 16:41:01.373] [INFO] console - [39m10
+
+[2013-06-08 16:41:03.365] [INFO] [default] - [32m[2013-06-08 16:41:03.365] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:41:03.365] [INFO] [default] - [32m[2013-06-08 16:41:03.365] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:41:03.367] [INFO] [default] - [32m[2013-06-08 16:41:03.366] [INFO] console - [39m9
+
+[2013-06-08 16:41:06.172] [INFO] [default] - [32m[2013-06-08 16:41:06.171] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:41:06.172] [INFO] [default] - [32m[2013-06-08 16:41:06.172] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:41:06.174] [INFO] [default] - [32m[2013-06-08 16:41:06.174] [INFO] console - [39m9
+
+[2013-06-08 16:41:09.639] [INFO] [default] - [32m[2013-06-08 16:41:09.637] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:41:09.640] [INFO] [default] - [32m[2013-06-08 16:41:09.639] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:41:09.642] [INFO] [default] - [32m[2013-06-08 16:41:09.641] [INFO] console - [39m-7
+
+[2013-06-08 16:41:11.837] [INFO] [default] - [32m[2013-06-08 16:41:11.836] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:41:11.838] [INFO] [default] - [32m[2013-06-08 16:41:11.837] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:41:11.842] [INFO] [default] - [32m[2013-06-08 16:41:11.842] [INFO] console - [39m7
+
+[2013-06-08 16:41:13.742] [INFO] [default] - [32m[2013-06-08 16:41:13.741] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:41:13.742] [INFO] [default] - [32m[2013-06-08 16:41:13.742] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:41:13.743] [INFO] [default] - [32m[2013-06-08 16:41:13.743] [INFO] console - [39m4
+
+[2013-06-08 16:41:15.846] [INFO] [default] - [32m[2013-06-08 16:41:15.845] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:41:15.847] [INFO] [default] - [32m[2013-06-08 16:41:15.847] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:41:15.852] [INFO] [default] - [32m[2013-06-08 16:41:15.849] [INFO] console - [39m-9
+
+[2013-06-08 16:41:28.317] [INFO] [default] - [32m[2013-06-08 16:41:28.317] [INFO] console - [39m51b2ec382c4fc82914000002
+[32m[2013-06-08 16:41:28.317] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:41:28.322] [INFO] [default] - [32m[2013-06-08 16:41:28.322] [INFO] console - [39m-5
+
+[2013-06-08 16:42:05.247] [INFO] [default] - [32m[2013-06-08 16:42:05.244] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:42:05.247] [INFO] [default] - [32m[2013-06-08 16:42:05.246] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:42:05.249] [INFO] [default] - [32m[2013-06-08 16:42:05.249] [INFO] console - [39m2
+
+[2013-06-08 16:42:07.613] [INFO] [default] - [32m[2013-06-08 16:42:07.612] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:42:07.614] [INFO] [default] - [32m[2013-06-08 16:42:07.613] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:42:07.617] [INFO] [default] - [32m[2013-06-08 16:42:07.617] [INFO] console - [39m10
+
+[2013-06-08 16:42:10.005] [INFO] [default] - [32m[2013-06-08 16:42:10.004] [INFO] console - [39m51b2ec382c4fc82914000002
+
+[2013-06-08 16:42:10.006] [INFO] [default] - [32m[2013-06-08 16:42:10.005] [INFO] console - [39m51b2ec0e2c4fc82914000001
+
+[2013-06-08 16:42:10.008] [INFO] [default] - [32m[2013-06-08 16:42:10.007] [INFO] console - [39m-6
+
