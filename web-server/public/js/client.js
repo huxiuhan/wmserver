@@ -3,7 +3,7 @@ var username;
 var host = "0.0.0.0";
 var port = "10000";
 var userToken = "";
-
+var recvdata;
 
 function goToView(viewname) {
   $(".view").hide();
@@ -31,6 +31,7 @@ var  signupAction = function() {
     log: true
   }, function() {
     pomelo.request(route, {user: buildObj('signup')}, function(data) {
+      recvdata = data;
       if (data.code==501) {
         console.log("fields errors:", data.errors);
       } else {

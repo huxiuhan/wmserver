@@ -5,13 +5,13 @@ var Point = model.model('Point');
 var Area = model.model('Area');
 var points = [];
 
-var n = 100;
+var w = 320, h = 226;
 
-for (var x = 1; x <= 100; x++) {
-  for (var y = 1; y <= 100; y++) {
+for (var x = 0; x <= w; x++) {
+  for (var y = 0; y <= h; y++) {
     var p = new Point({x: x, y: y});
     points.push(p);
-    console.log((x-1)*100+y);
+    console.log(x*w+y);
   }
 }
 
