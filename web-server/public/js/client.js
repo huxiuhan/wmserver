@@ -78,6 +78,28 @@ var battle = function() {
     });
 }
 
+var getMission = function() {
+  var route = "area.areaHandler.getMission";
+  pomelo.request(route, {}, function(data) {
+      if (data.error) {
+        console.log("errors:", data.errors);
+      } else {
+        alert(data.msg);
+      }
+    });
+}
+
+var completeMission = function() {
+  var route = "area.areaHandler.completeMission";
+  pomelo.request(route, {mission: buildObj('mission')}, function(data) {
+      if (data.error) {
+        console.log("errors:", data.errors);
+      } else {
+        alert(data.msg);
+      }
+    });
+}
+
 $(document).ready(function(){
   goToView("login");
  // goToView("battle");

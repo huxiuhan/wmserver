@@ -15,7 +15,7 @@ var User = model.model('User');
 handler.battle = function(msg, session, next) {
   var meid = session.get('uid');
   console.log(meid);
-  var enermyid = msg.fights.enermyID ;
+  var enermyid = msg.fights.enermyId ;
   console.log(enermyid);
 
   var meenergy ;

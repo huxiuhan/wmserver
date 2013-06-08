@@ -41,14 +41,25 @@
     <div id="home-view" class="view">
       <h1>Home</h1>
       Welcome <span id="var-username"> </span>
+      <hr/>
       <a onclick="goToView('battle')">battle?</a>
+      <hr/>
+      <a onclick="goToView('mission')">mission?</a>
     </div>  
   <!--qiao--> 
     <div id="battle-view" class="view">
       <h1>Battle</h1>
       <form id="battle-form">
-        <input type="text" name="enermyID"> 
+        <input type="text" name="enermyId"> 
         <a onclick="battle()"> fight! </a>
+      </form>
+    </div>  
+    <div id="mission-view" class="view">
+      <h1>Missions</h1>
+      <a onclick="getMission()"> list unfinished? </a>
+      <form id="mission-form">
+        <input type="text" name="missionId"> 
+        <a onclick="completeMission()"> finish! </a>
       </form>
     </div>  
   </body>

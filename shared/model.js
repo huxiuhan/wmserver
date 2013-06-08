@@ -17,7 +17,8 @@ var UserSchema = new Schema({
   studentId: { type: Number, required:true, unique: true },
   energy: { type: Number },
   isOnline: { type: Boolean },
-  pointId: { type: ObjectId }
+  pointId: { type: ObjectId },
+  finishedMissionsId: [ObjectId]
 });
 
 UserSchema.virtual('password').set(function(password){
@@ -26,7 +27,8 @@ UserSchema.virtual('password').set(function(password){
 
 var AreaSchema = new Schema({
   name: { type: String },
-  pointsId: [ObjectId]
+  pointsId: [ObjectId],
+  ownerId: ObjectId
 });
 
 var PointSchema = new Schema({
@@ -35,8 +37,25 @@ var PointSchema = new Schema({
   areaId: ObjectId
 });
 
+var MissionSchema = new Schema({
+  name: { type: String },
+  description: { type: String },
+  bonus: { type: Number },
+  areaId: ObjectId
+});
+
+var FeedSchema = new Schema({
+  time: { type: Date },
+  type: { type: Number },// number stand for type
+  content: { type: String },
+  destId: ObjectId,
+  fromId: ObjectId
+});
+
 db.model('User', UserSchema);
 db.model('Area', AreaSchema);
 db.model('Point', PointSchema);
+db.model('Mission', MissionSchema);
+db.model('Feed', FeedSchema);
 
 module.exports = db;
