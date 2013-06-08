@@ -41,7 +41,7 @@ var  signupAction = function() {
       pomelo.disconnect();
     });
   });
-};
+}
 
 var loginAction = function() {
   var route = "auth.authHandler.login";
@@ -76,6 +76,19 @@ var moveToAction = function () {
 
 }
 
+//qiao 
+var battle = function() {
+  var route = "battle.battleHandler.battle";
+  pomelo.request(route, {fights: buildObj('battle')}, function(data) {
+      if (data.error) {
+        console.log("errors:", data.errors);
+      } else {
+        alert(data.msg);
+      }
+    });
+}
+
 $(document).ready(function(){
   goToView("login");
+ // goToView("battle");
 })

@@ -11,6 +11,9 @@
         ],
         "auth":[
            {"id": "auth-server-1", "host": "127.0.0.1", "port":6888}
+        ],
+        "battle":[
+           {"id": "battle-server-1", "host": "127.0.0.1", "port":6999}
         ]
     },
     "production":{
