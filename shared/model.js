@@ -3,9 +3,6 @@ var mongoose = require('mongoose');
 var db = mongoose.createConnection('mongodb://localhost/wmserver');
 var utils = require('./utils');
 
-
-
-
 var Schema = mongoose.Schema
   , ObjectId = Schema.ObjectId;
 
@@ -34,7 +31,7 @@ var AreaSchema = new Schema({
 var PointSchema = new Schema({
   x: Number,
   y: Number,
-  areaId: ObjectId
+  areaId: ObjectId,
 });
 
 var MissionSchema = new Schema({
