@@ -24,7 +24,7 @@ function setVar(varName, val) {
 }
 
 var  signupAction = function() {
-  var route = "auth.authHandler.signup";
+  var route = "connector.authHandler.signup";
   pomelo.init({
     host: host,
     port: port,
@@ -44,7 +44,7 @@ var  signupAction = function() {
 }
 
 var loginAction = function() {
-  var route = "auth.authHandler.login";
+  var route = "connector.authHandler.login";
   pomelo.init({
     host: host,
     port: port,
@@ -64,7 +64,7 @@ var loginAction = function() {
 }
 
 var logoutAction = function() {
-  var route = "auth.authHandler.logout";
+  var route = "connector.authHandler.logout";
   pomelo.request(route, {}, function(data) {
     recvdata = data;
     alert(data.msg);
