@@ -31,7 +31,7 @@ var AreaSchema = new Schema({
 var PointSchema = new Schema({
   x: Number,
   y: Number,
-  areaId: ObjectId,
+  areaId: ObjectId
 });
 
 var MissionSchema = new Schema({

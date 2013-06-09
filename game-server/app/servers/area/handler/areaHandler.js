@@ -13,7 +13,6 @@ var handler = Handler.prototype;
 
 var User = model.model('User');
 var Misson = model.model('Mission');
-var Finished = model.model('Finished');
 
 
 handler.completeMission = function(msg, session, next) {
@@ -23,8 +22,7 @@ handler.completeMission = function(msg, session, next) {
   Misson.findById(missionId, function(err, mission) {
     if(err){
       console.log("find wr");
-    }
-    else{
+    } else { 
       var bonus = mission.bonus ;
       User.findById(uid, function(err, u){
         u.energy += bonus ;
@@ -32,15 +30,14 @@ handler.completeMission = function(msg, session, next) {
         u.save(function(err){
           if(err){
             console.log("save wr");
-          }
-          else{
+          } else {
             next(null, {
               msg: 'finished mission' + missionId 
                     +'! now energy =' + u.energy ,
               code: 200
             });
           }
-        }
+        });
       });
     }
   });
@@ -56,7 +53,7 @@ handler.getMission = function(msg, session, next) {
     else{
       var finished = u.finishedMissionsId ;
       var unfinished ;
-      int i , j ;
+      var i , j ;
       Mission.find({}, function(err, all){
         for(i = 0 ; i < all.length ; i++){
           for(j = 0 ; j < finished.length ; j++){

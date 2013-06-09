@@ -4,7 +4,7 @@ var routeUtil = require('./app/util/routeUtil');
  * Init app for client.
  */
 var app = pomelo.createApp();
-app.set('name', 'chatofpomelo');
+app.set('name', 'wmserver');
 
 
 // app configure
