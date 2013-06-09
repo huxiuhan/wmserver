@@ -14,6 +14,11 @@ var User = model.model('User');
 
 handler.battle = function(msg, session, next) {
   var meid = session.get('u_id');
+  //注意，这里验证是否登录！
+  if (!meid) {
+    next(null, {code: 500, msg: 'not login!'});
+    return;
+  }
   console.log(meid);
   var enermyid = msg.fights.enermyId ;
   console.log(enermyid);
