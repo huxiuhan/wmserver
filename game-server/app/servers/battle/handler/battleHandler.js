@@ -13,7 +13,7 @@ var handler = Handler.prototype;
 var User = model.model('User');
 
 handler.battle = function(msg, session, next) {
-  var meid = session.get('uid');
+  var meid = session.get('u_id');
   console.log(meid);
   var enermyid = msg.fights.enermyId ;
   console.log(enermyid);

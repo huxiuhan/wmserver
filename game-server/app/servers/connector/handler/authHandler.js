@@ -36,9 +36,9 @@ handler.signup = function(msg, session, next) {
 };
 
 var onUserLeave = function (app, session, reason) {
-  var uid = session.get('uid');
+  var u_id = session.get('u_id');
   var User = model.model('User');
-  user.findById(uid, function(err,u){
+  user.findById(u_id, function(err,u){
     u.isOnline = false;
     u.save(function (err){
       console.log(u.name+":is leaving");
@@ -57,11 +57,9 @@ handler.login = function(msg, session, next) {
       if (err || user.passwordHashed != utils.passwordHashed(msg.user.password)) {
         next(null, {code: 503, error:{auth: 'can not authorize!'}});
       } else {
-        var uid = user._id;
-        //var token = utils.hashedPassword(uid);
-        //console.log('uid:', uid);
-        //session.bind(uid,function(err){console.log(err)});
-        session.set('uid', uid);
+        var u_id = user._id;
+
+        session.set('u_id', u_id);
         session.on('closed', onUserLeave.bind(null, app));
         session.pushAll();
         user.isOnline = true;
@@ -76,12 +74,12 @@ handler.login = function(msg, session, next) {
 handler.logout = function(msg, session, next) {
   var app = this.app;
   var User = model.model('User');
-  uid = session.get('uid');
-  User.findById(uid, function(err, user){
+  u_id = session.get('u_id');
+  User.findById(u_id, function(err, user){
     user.isOnline = false;
     user.save(function(err) {
       //console.log(err);
-      session.set('uid', null);
+      session.set('u_id', null);
       session.pushAll();
       next(null, {code: 200, msg:user.email+":is leaving"});
     });
