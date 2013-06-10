@@ -15,7 +15,9 @@ var UserSchema = new Schema({
   energy: { type: Number },
   isOnline: { type: Boolean },
   pointId: { type: ObjectId },
-  finishedMissionsId: [ObjectId]
+  finishedMissionsId: [ObjectId],
+  friendsId: [ObjectId] 
+
 });
 
 UserSchema.virtual('password').set(function(password){

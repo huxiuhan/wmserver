@@ -69,6 +69,7 @@ var logoutAction = function() {
     recvdata = data;
     alert(data.msg);
     goToView('login');
+    pomelo.disconnect();
   });
 }
 
@@ -78,7 +79,7 @@ var moveToAction = function () {
 
 //qiao 
 var battle = function() {
-  var route = "battle.battleHandler.battle";
+  var route = "area.areaHandler.battle";
   pomelo.request(route, {fights: buildObj('battle')}, function(data) {
       if (data.error) {
         console.log("errors:", data.errors);
@@ -88,12 +89,24 @@ var battle = function() {
     });
 }
 
-var getMission = function() {
-  var route = "area.areaHandler.getMission";
+var battlearea = function() {
+  var route = "area.areaHandler.battleArea";
+  pomelo.request(route, {fights: buildObj('battlearea')}, function(data) {
+      if (data.error) {
+        console.log("errors:", data.errors);
+      } else {
+        alert(data.msg);
+      }
+    });
+}
+
+var getMissions = function() {
+  var route = "area.areaHandler.getMissions";
   pomelo.request(route, {}, function(data) {
       if (data.error) {
         console.log("errors:", data.errors);
       } else {
+        recvdata = data ;
         alert(data.msg);
       }
     });
@@ -110,7 +123,69 @@ var completeMission = function() {
     });
 }
 
+var listfriends = function() {
+  var route = "chat.chatHandler.getFriendsList";
+  pomelo.request(route, {}, function(data) {
+      if (data.error) {
+        console.log("errors:", data.errors);
+      } else {
+        recvdata = data ;
+        alert(data.msg);
+      }
+    });
+}
+
+var addfriend = function() {
+  var route = "chat.chatHandler.newFriendRequest";
+  pomelo.request(route, {friend: buildObj('addfriend')}, function(data) {
+      if (data.error) {
+        console.log("errors:", data.errors);
+      } else {
+        alert(data.msg);
+      }
+    });
+}
+
+var sendMessage = function(){
+  var route="chat.chatHandler.sendMsg";
+   pomelo.request(route, {rid: '1',
+        msg: 'welcome to wmserver',
+        from: 'username',
+        to: 'anbo'
+}, function(data) {
+     
+        alert(data.msg);
+  
+    });
+}
+
+
 $(document).ready(function(){
   goToView("login");
  // goToView("battle");
+
+ 
+ pomelo.on('onMsg', function(data) {
+    alert('from:'+data.from+'\nMsg:'+data.msg+'\ntarget:'+data.to);
+  });
+
+  //update user list
+  pomelo.on('onAdd', function(data) {
+     alert('onAdd');
+  });
+
+  //update user list
+  pomelo.on('onLeave', function(data) {
+    alert('onLeave');
+  });
+
+
+  //handle disconect message, occours when the client is disconnect with servers
+  pomelo.on('disconnect', function(reason) {
+    alert('disconnect');
+  });
+
+
+
 })
+

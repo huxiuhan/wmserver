@@ -46,6 +46,8 @@
       <hr/>
       <a onclick="goToView('mission')">mission?</a>
       <hr/>
+      <a onclick="goToView('friend')">freind?</a>
+      <hr/>
       <a onclick="logoutAction()">Log out!</a>
     </div>    
   <!--qiao--> 
@@ -55,14 +57,28 @@
         <input type="text" name="enermyId"> 
         <a onclick="battle()"> fight! </a>
       </form>
+      <form id="battlearea-form">
+        <input type="text" name="areaId"> 
+        <a onclick="battlearea()"> fight area! </a>
+      </form>
     </div>  
     <div id="mission-view" class="view">
       <h1>Missions</h1>
-      <a onclick="getMission()"> list unfinished? </a>
+      <a onclick="getMissions()"> list unfinished? </a>
       <form id="mission-form">
         <input type="text" name="missionId"> 
         <a onclick="completeMission()"> finish! </a>
       </form>
     </div>  
+    <div id="friend-view" class="view">
+      <h1>Firends</h1>
+      <a onclick="listfriends()"> list freinds? </a>
+      <form id="addfriend-form">
+        <input type="text" name="friendname"> 
+        <a onclick="addfriend()"> add! </a>
+      </form>
+    </div>  
+
+    <a onclick="sendMessage()"> send! </a>
   </body>
 </html>
