@@ -38,7 +38,7 @@ handler.signup = function(msg, session, next) {
 var onUserLeave = function (app, session, reason) {
   var u_id = session.get('u_id');
   var User = model.model('User');
-  user.findById(u_id, function(err,u){
+  User.findById(u_id, function(err,u){
     u.isOnline = false;
     u.save(function (err){
       console.log(u.name+":is leaving");
@@ -93,7 +93,7 @@ handler.login = function(msg, session, next) {
         session.pushAll();
         user.isOnline = true;
         user.save(function(err) {
-          next(null, {code: 200, user: user});
+          next(null, {code: 200, userId: user._id});
         });
       }
     }

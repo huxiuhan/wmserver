@@ -9,8 +9,14 @@ var w = 320, h = 226;
 
 var check = function (obj, conditions) {
   for (k in conditions) {
-    if (obj[k]!=conditions[k]) {
-      return false;
+    if (k=='_id') {
+      if (!obj[k].equals(conditions[k])) {
+        return false;
+      }
+    } else {
+      if (obj[k]!=conditions[k]) {
+        return false;
+      }
     }
   }
   return true;
@@ -33,6 +39,7 @@ for (var x = 0; x <= w; x++) {
 }
 
 
+var aok_cnt = 0;
 for (ai in areas_info) {
   var a = areas_info[ai];
   var area = new Area({name:a.name});
@@ -42,20 +49,38 @@ for (ai in areas_info) {
     area.pointsId.push(points[pti]._id);
   }
   area.save(function (err) {
-    for (pi in a.points) {
-      var p = a.points[pi];
-      var pti = findOneBy(points, p);
-      points[pti].areaId = area._id;
-    }
+    aok_cnt++;
+    console.log('aok:', aok_cnt);
   });
 }
-
 function complete() {
+  if (aok_cnt < areas_info.length) {
+    setTimeout(complete,500);
+    return;
+  }
+  if (!points.length ) 
+  {
+    var pa = {};
+    Area.find({}, function(err, areas) {
+      for (var ai=0; ai < areas.length; ai++) {
+        var a = areas[ai];
+        console.log(a);
+        for (var pi=0; pi < a.pointsId.length; pi++) {
+          var pid = a.pointsId[pi];
+          pa[pid.toString()] = a._id;
+          console.log(pid);
+          Point.findById(pid, function(err, point){
+            point.areaId = pa[point._id.toString()];
+            point.save();
+          });
+        }
+      }
+    });
 
-  if (!points.length) return;
+    return;
+  }
   var p = points.shift();
   console.log('s'+points.length);
   p.save(complete);
 }
-
 complete();

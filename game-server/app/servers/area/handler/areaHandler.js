@@ -144,7 +144,12 @@ handler.battleArea = function(msg, session, next) {
 }
 
 handler.completeMission = function(msg, session, next) {
-  var uid = session.get('u_id');
+  var u_id = session.get('u_id');
+  //注意，这里验证是否登录！
+  if (!u_id) {
+    next(null, {code: 500, msg: 'not login!'});
+    return;
+  }
   var missionId = msg.mission.missionId ;
 
   Mission.findById(missionId, function(err, mission) {
@@ -153,7 +158,7 @@ handler.completeMission = function(msg, session, next) {
     }
     else{
       var bonus = mission.bonus ;
-      User.findById(uid, function(err, u){
+      User.findById(u_id, function(err, u){
         u.energy += bonus ;
         u.finishedMissionsId.push(missionId);
         u.save(function(err){
@@ -174,10 +179,14 @@ handler.completeMission = function(msg, session, next) {
 }
 
 handler.getMissions = function(msg, session, next) {
-  var uid = session.get('u_id');
-//  console.log(uid) ;
+  var u_id = session.get('u_id');
+  //注意，这里验证是否登录！
+  if (!u_id) {
+    next(null, {code: 500, msg: 'not login!'});
+    return;
+  }
   
-  User.findById(uid, function(err, u){
+  User.findById(u_id, function(err, u){
     if(err){
       console.log("find wr !") ;
     }
@@ -216,22 +225,6 @@ handler.getMissions = function(msg, session, next) {
 }
 
 
-var check = function (obj, conditions) {
-  for (k in conditions) {
-    if (obj[k]!=conditions[k]) {
-      return false;
-    }
-  }
-  return true;
-}
-var findOneBy = function(objs, conditions){
-  for (i in objs) {
-    if (check(objs[i], conditions)) {
-      return i;
-    }
-  }
-}
-
 
 
 handler.getAreas = function(msg, session, next) {
@@ -253,7 +246,7 @@ handler.getAreas = function(msg, session, next) {
       var a = areas[i];
       i++;
       console.log(points);
-      Point.find({areaId: a._id}, complete);
+      Point.find({areaId: a._id},'x y', complete);
     }
     complete(null,null);
   });
