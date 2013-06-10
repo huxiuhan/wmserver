@@ -255,6 +255,9 @@ handler.getAreas = function(msg, session, next) {
 
 handler.getAllMissions = function(msg, session, next) {
   Mission.find({},function(err, missions){
-    next(null, {missions: missions});
+    next(null, {
+      missions: missions,
+      code: 200
+    });
   });
 }
