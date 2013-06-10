@@ -251,3 +251,10 @@ handler.getAreas = function(msg, session, next) {
     complete(null,null);
   });
 }
+
+
+handler.getAllMissions = function(msg, session, next) {
+  Mission.find({},function(err, missions){
+    next(null, {missions: missions});
+  });
+}

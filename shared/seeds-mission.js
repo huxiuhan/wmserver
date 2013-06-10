@@ -24,7 +24,7 @@ Area.findOne({name: mission1.name},function(err , area){
   m1.save();
 });
 
-User.findOne({name: 'anbo'},function(err, u){
+User.findOne({name: 'sqrh'},function(err, u){
   var area = new Area({ownerId:u._id});
   console.log(area);
   area.save();
