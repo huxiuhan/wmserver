@@ -44,13 +44,15 @@ handler.battle = function(msg, session, next) {
              next(null, {
               msg: 'me:' + meenergy + '\n he:' + enermyenergy + 
                     '\n random:' + tmp + '\n result:' + result + 
-                    '\n so u lose'
+                    '\n so u lose',
+              code: 200
             });
           else
             next(null, {
               msg: 'me:' + meenergy + '\n he:' + enermyenergy + 
                     '\n random:' + tmp + '\n result:' + result + 
-                    '\n so u win'
+                    '\n so u win',
+              code: 200
             });
         }
       });
