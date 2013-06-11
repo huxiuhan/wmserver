@@ -1,6 +1,6 @@
 var pomelo = window.pomelo;
 var username;
-var host = "121.199.19.146";
+var host = "0.0.0.0";
 var port = "10000";
 var userToken = "";
 var recvdata;

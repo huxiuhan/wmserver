@@ -60,7 +60,6 @@ handler.sendMsg = function(msg, session,next) {
 //friends handler
 handler.getFriendsList = function(msg, session, next) {
 	var uid = session.get('u_id');
-	var friends = [] ;
 
 	User.findById(uid, function(err, u){
         if(err){
@@ -70,10 +69,20 @@ handler.getFriendsList = function(msg, session, next) {
         	});
         }
         else{
-        	next(null,{
-        		code: 200,
-        		msg: u.friendsId 
-        	});
+          var friends = [];
+          var complete = function(err, friend) {
+            if (friend!=null) friends.push(friend);
+            if (!u.friendsId.length) {
+              next(null,{
+                code: 200,
+                friends: friends
+              });
+              return;
+            }
+            var fid = u.friendsId.shift();
+            User.findById(fid, complete);
+          }
+          complete(null,null);
         }
       });
 }
