@@ -45,6 +45,7 @@ handler.battle = function(msg, session, next) {
               msg: 'me:' + meenergy + '\n he:' + enermyenergy + 
                     '\n random:' + tmp + '\n result:' + result + 
                     '\n so u lose',
+              status: "lose",
               code: 200
             });
           else
@@ -52,6 +53,7 @@ handler.battle = function(msg, session, next) {
               msg: 'me:' + meenergy + '\n he:' + enermyenergy + 
                     '\n random:' + tmp + '\n result:' + result + 
                     '\n so u win',
+              status: "lose",
               code: 200
             });
         }
@@ -97,7 +99,8 @@ handler.battleArea = function(msg, session, next) {
               else{
                 next(null,{
                   code:200,
-                  msg: 'Empty area. \nAnd now it belongs to ' + u._id
+                  msg: 'Empty area. \nAnd now it belongs to ' + u._id,
+                  status: "empty"
                 });
               }
             });
@@ -116,7 +119,9 @@ handler.battleArea = function(msg, session, next) {
                 var result = meenergy - areaenergy + tmp ;
                 if(result < 0){
                   next(null,{
-                    msg:'u lose ' + '\nowner: ' + u.name + ' win'
+                    msg:'u lose ' + '\nowner: ' + u.name + ' win',
+                    code:200,
+                    status: "lose"
                   });
                 }
                 else{
@@ -131,7 +136,8 @@ handler.battleArea = function(msg, session, next) {
                     else{
                       next(null,{
                         code:200,
-                        msg:'u win'+ '\nold owner ' + u.name +' lose \nnow area owner '+meid
+                        msg:'u win'+ '\nold owner ' + u.name +' lose \nnow area owner '+meid,
+                        status: "win"
                       }); 
                     }
                   });
@@ -159,18 +165,20 @@ handler.completeMission = function(msg, session, next) {
       console.log("find wr");
     }
     else{
+      console.log(mission);
       var bonus = mission.bonus ;
       User.findById(u_id, function(err, u){
-        u.energy += bonus ;
-        u.finishedMissionsId.push(missionId);
+        console.log(u, bonus);
+        u.energy = u.energy +  Number(bonus);
+        u.finishedMissionsId.push(mission._id);
         u.save(function(err){
           if(err){
-            console.log("save wr");
+            console.log("save wr:", err);
           }
           else{
             next(null, {
-              msg: 'finished mission' + missionId 
-                    +'! now energy =' + u.energy ,
+              missionId:  missionId,
+              energy: u.energy,
               code: 200
             });
           }
@@ -218,7 +226,7 @@ handler.getMissions = function(msg, session, next) {
           }
         }
         next(null, {
-              msg: unfinished ,
+              missions: unfinished ,
               code: 200
             });
       });

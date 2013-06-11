@@ -93,7 +93,7 @@ handler.login = function(msg, session, next) {
         session.pushAll();
         user.isOnline = true;
         user.save(function(err) {
-          next(null, {code: 200, user:{_id:user._id,name:user.name}});
+          next(null, {code: 200, user:{_id:user._id, name:user.name, energy:user.energy}});
         });
       }
     }

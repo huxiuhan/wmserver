@@ -39,7 +39,7 @@ var PointSchema = new Schema({
 var MissionSchema = new Schema({
   name: { type: String },
   description: { type: String },
-  bonus: { type: Number },
+  bonus: { type: Number, required: true },
   areaId: ObjectId
 });
 

@@ -24,6 +24,16 @@ Area.findOne({name: mission1.name},function(err , area){
   m1.save();
 });
 
+var mission2 = missions_info[2];
+Area.findOne({name: mission2.name},function(err , area){
+  var m2 = new Mission({name: mission2.name});
+  m2.description = mission2.description;
+  m2.bonus = mission2.bonus;
+  m2.areaId = area._id;
+  console.log(m2);
+  m2.save();
+});
+
 User.findOne({name: 'sqrh'},function(err, u){
   var area = new Area({ownerId:u._id});
   console.log(area);

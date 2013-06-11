@@ -22,7 +22,7 @@ var User = model.model('User');
  * @param  {Function} next next stemp callback
  *
  */
-handler.sendMsg = function(msg, session, next) {
+handler.sendMsg = function(msg, session,next) {
 	var rid = session.get('rid');
 	var username = session.uid.split('*')[0];
 	var channelService = this.app.get('channelService');
@@ -32,11 +32,14 @@ handler.sendMsg = function(msg, session, next) {
 		from: username,
 		to: msg.to
 	};
+  console.log(msg);
+  console.log(rid);
 	channel = channelService.getChannel(rid, false);
 
 	//the target is all users
 	if(msg.to == '*') {
 		channel.pushMessage(param);
+    console.log(param);
 	}
 	//the target is specific user
 	else {
@@ -50,6 +53,8 @@ handler.sendMsg = function(msg, session, next) {
 	next(null, {
 		msg: username
 	});
+
+//  console.log('123');
 }
 
 //friends handler
