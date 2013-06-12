@@ -5,7 +5,7 @@ var Point = model.model('Point');
 var Area = model.model('Area');
 var points = [];
 
-var w = 320, h = 226;
+var w = 400, h = 280;
 
 var check = function (obj, conditions) {
   for (k in conditions) {

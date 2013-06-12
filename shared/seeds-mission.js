@@ -33,10 +33,10 @@ Area.findOne({name: mission2.name},function(err , area){
   console.log(m2);
   m2.save();
 });
-
+/*
 User.findOne({name: 'sqrh'},function(err, u){
   var area = new Area({ownerId:u._id});
   console.log(area);
   area.save();
 });
-
+*/
