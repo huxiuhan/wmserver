@@ -16,6 +16,7 @@
     <script src="js/lib/socket.io.js"></script>
     <script src="js/lib/pomeloclient.js"></script>
     <script src="js/client.js"></script>
+    <script src="js/test.js"></script>
   </head>
   <body>
     <div id="signup-view" class="view">
@@ -61,6 +62,7 @@
         <input type="text" name="areaId"> 
         <a onclick="battlearea()"> fight area! </a>
       </form>
+      <input type="button" onclick="goToView('home')" value="Back">
     </div>  
     <div id="mission-view" class="view">
       <h1>Missions</h1>
@@ -69,6 +71,7 @@
         <input type="text" name="missionId"> 
         <a onclick="completeMission()"> finish! </a>
       </form>
+      <input type="button" onclick="goToView('home')" value="Back">
     </div>  
     <div id="friend-view" class="view">
       <h1>Firends</h1>
@@ -77,8 +80,14 @@
         <input type="text" name="friendname"> 
         <a onclick="addfriend()"> add! </a>
       </form>
+      <input type="button" onclick="goToView('home')" value="Back">
     </div>  
 
     <a onclick="sendMessage()"> send! </a>
+    <br />
+    <br />
+    <input type="button" onclick="runTests()" value="Run Tests">
+    <div id="testlog">
+    </div>
   </body>
 </html>

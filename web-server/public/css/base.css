@@ -79,3 +79,22 @@ span.divider {
   padding: 5px;
   color: #ccc;
 }
+
+div#testlog {
+}
+
+div#testlog p {
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  font-family: monospace;
+}
+
+p.success {
+  color: green;
+  font-weight: bold;
+}
+
+p.fail {
+  color: red;
+  font-weight: bold;
+}
