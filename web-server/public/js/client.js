@@ -1,6 +1,6 @@
 var pomelo = window.pomelo;
 var username;
-var host = "0.0.0.0";
+var host = "121.199.19.146";
 var port = "10000";
 var userToken = "";
 var recvdata;
@@ -171,7 +171,7 @@ $(document).ready(function(){
 
   //update user list
   pomelo.on('onAdd', function(data) {
-     alert('onAdd');
+     // alert('onAdd');
   });
 
   //update user list
@@ -182,7 +182,7 @@ $(document).ready(function(){
 
   //handle disconect message, occours when the client is disconnect with servers
   pomelo.on('disconnect', function(reason) {
-    alert('disconnect');
+    // alert('disconnect');
   });
 
 

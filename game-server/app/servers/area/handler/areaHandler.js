@@ -162,7 +162,7 @@ handler.completeMission = function(msg, session, next) {
 
   Mission.findById(missionId, function(err, mission) {
     if(err){
-      console.log("find wr");
+      next(null, {code: 500, msg: 'mission id ' + missionId + ' not exist'});
     }
     else{
       console.log(mission);
@@ -182,7 +182,7 @@ handler.completeMission = function(msg, session, next) {
         u.finishedMissionsId.push(mission._id);
         u.save(function(err){
           if(err){
-            console.log("save wr:", err);
+            next(null, {code: 500, msg: 'user update failed'});
           }
           else{
             next(null, {

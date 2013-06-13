@@ -71,6 +71,13 @@ handler.getFriendsList = function(msg, session, next) {
         else{
           var friends = [];
           var complete = function(err, friend) {
+            if (err) {
+              console.log(err);
+              next(null, {
+                code :505
+              });
+
+            }
             if (friend!=null) friends.push(friend);
             if (!u.friendsId.length) {
               next(null,{
@@ -89,7 +96,7 @@ handler.getFriendsList = function(msg, session, next) {
 
 handler.newFriendRequest = function(msg, session, next) {
 	var uid = session.get('u_id');
-	var friend_name = msg.friend.friendname ;
+	var friend_name = msg.friendname ;
 //	console.log(friend_name);
 
 	User.findOne({name: friend_name}, function(err, friend) {
