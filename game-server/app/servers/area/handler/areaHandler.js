@@ -169,6 +169,15 @@ handler.completeMission = function(msg, session, next) {
       var bonus = mission.bonus ;
       User.findById(u_id, function(err, u){
         console.log(u, bonus);
+        var i;
+        for (i = 0; i < u.finishedMissionsId.length; i++)
+          if (mission._id.equals(u.finishedMissionsId[i])) {
+            next(null, {
+              code: 507,
+              error: "already finished mission"
+            });
+            return;
+          }
         u.energy = u.energy +  Number(bonus);
         u.finishedMissionsId.push(mission._id);
         u.save(function(err){
