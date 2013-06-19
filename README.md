@@ -20,7 +20,7 @@ using [pomelo](https://github.com/NetEase/pomelo) and NodeJS.
 
 ###测试
 
-使用web版的简单客户端可以进行测试，进入web-server文件夹下运行`node app.js`可以开启web服务器，访问http://0.0.0.0:3001即可进行功能测试，并且附带有部分自动化单元测试。
+使用web版的简单客户端可以进行测试，进入web-server文件夹下运行`node app.js`可以开启web服务器，访问[http://0.0.0.0:3001](#)即可进行功能测试，并且附带有部分自动化单元测试。
 
 ###更改设置
 
